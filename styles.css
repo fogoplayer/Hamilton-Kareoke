@@ -216,6 +216,6 @@ nav {
     padding-bottom:64px;
     height:calc(100vh - 80px);
     width:calc(100vw - 460px);
-    margin-right:460px;
+    padding-right:460px;
     overflow-y:scroll;
   }
