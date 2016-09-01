@@ -56,5 +56,5 @@ var scroll = function (songNumber) {
 };
 
 var liteSwitch = function (channel) {
-  window.location = "fogoplayer.github.io/Hamilton-Kareoke/" + channel + ".html";
+  window.location = channel + ".html";
 };
