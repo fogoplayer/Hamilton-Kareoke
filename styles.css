@@ -1,0 +1,211 @@
+* {
+  border:0px solid black;
+  font-family: 'roboto', sans-serif;
+  display:inherit;
+  margin:0px;
+  background-color:inherit;
+}
+
+::-webkit-scrollbar {
+  width:0px;
+}
+
+button:focus {
+  outline:0;
+}
+
+head {
+  display:none;
+}
+
+body {
+  margin:0px;
+  width:100vw;
+}
+
+.header {
+  background-color: orange;
+  
+  z-index:12;
+  position:fixed;
+  
+  height:64px;
+  width:100%;
+  box-shadow:0px 4px 8px gray;
+}
+
+  .navButton {
+    height:64px;
+    width:64px;
+    font-size:64px;
+    line-height:64px;
+    text-align:center;
+    display:inline-block;
+  }
+
+  .title {
+    float:right;
+    text-align:left;
+    line-height:64px;
+    font-size:30px;
+    height:100%;
+    width:calc(100% - 64px);
+    display:inline-block;
+  }
+#overlay {
+  width: 100vw;
+  height: 100vh;
+  z-index: 3;
+  position:fixed;
+  display:none;
+}
+
+
+nav {
+  position:fixed;
+  z-index:4;
+  padding-top:64px;
+  width:300px;
+  height:calc(100% - 64px);
+  background-color:white;
+  overflow:scroll;
+  box-shadow:8px 0px 16px gray;
+  margin-left:-400px;
+  transition-property:margin-left;
+  transition-duration:0.5s;
+}
+
+  .open {
+    margin-left:0px;
+  }
+
+  .act {
+    height:48px;
+    width:300px;
+    padding-left:16px;
+    text-align:left;
+    font-size:14px;
+    line-height:48px;
+    display:block;
+    vertical-align:top;
+  }
+
+    #act1Wrapper {
+      height:0px;
+      overflow-y:hidden;
+      transition-property:height;
+      transition-duration:0.5s;
+    }
+
+      .act1{
+        height:48px;
+        width:300px;
+        padding-left:32px;
+        text-align:left;
+        font-size:14px;
+        line-height:48px;
+      } 
+    
+    #act2Wrapper {
+      height:0px;
+      overflow-y:hidden;
+      transition-property:height;
+      transition-duration:0.5s;
+    }
+    
+      .act2{
+        height:48px;
+        width:300px;
+        padding-left:32px;
+        text-align:left;
+        font-size:14px;
+        line-height:48px;
+      }
+    
+#content {
+  width:90vw;
+  height:100%;
+  background-color:white;
+  padding-top:72px;
+  padding-left:5vw;
+  padding-right:5vw;
+  display:inline-block;
+}
+
+  .songCard {
+    background-color:white;
+    position:relative;
+    margin:9px;
+    border:0px solid gray;
+    box-shadow:0px 0px 8px gray;
+  }
+
+  img {
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+  
+  .songTitle {
+    position: absolute; 
+    margin-top: 0px; 
+    z-index:1;
+    background:rgba(255, 255, 255, 0.7);
+    width:100%;
+    height:22%;
+    text-align:center;
+    padding-top:8%;
+  }
+  
+    .twoLine {
+      height:28%;
+      padding-top:2%;
+    }
+
+  .songLink {
+    position: absolute; 
+    bottom:0px; 
+    z-index:1;
+    background:rgba(255, 255, 255, 0.7);
+    width:calc(100% / 3);
+    height:20%;
+    text-align:center;
+    padding-top:2%;
+    font-size:14px;
+    display:block;
+  }
+  
+    .clean {
+      margin-left:calc(200% / 3);
+    }
+
+    .kareoke {
+      margin-left:calc(100% / 3);
+    }
+
+#modal {
+  position:fixed;
+  z-index:24;
+  display:none;
+  width:100%;
+  height:100%;
+  overflow-y:scroll;
+  background-color:white;
+}
+  iframe {
+    position:fixed;
+    height:200px;
+    width:364px;
+    right:16px;
+  }
+  
+  #lyrics {
+    position:fixed;
+    font-size:24px;
+    padding-left: 64px;
+    padding-top:80px;
+    padding-bottom:64px;
+    height:calc(100vh - 80px);
+    width:calc(100vw - 460px);
+    overflow-y:scroll;
+  }
