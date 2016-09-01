@@ -1,4 +1,4 @@
-//" " — ' '
+//" " — ' ' …
 
 //Paste this at the end of URLs: ?autoplay=1&controls=0&showinfo=0&rel=0
 var alexanderHamilton = {
@@ -215,7 +215,7 @@ var aaronBurrSir = {
     <br><br>
     
     [HAMILTON]
-    <br>Sir…
+    <br>Sir...
     <br>I heard your name at Princeton. I was seeking an accelerated course of study when I got sort of out of sorts with a buddy of yours. I may have punched him. It's a blur, sir. He handles the financials?
     <br><br>
     
@@ -237,7 +237,7 @@ var aaronBurrSir = {
     <br>You're an orphan. Of course! I'm an orphan
     <br>Gosh, I wish there was a war!
     <br>Then we could prove that we're worth more
-    <br>Than anyone bargained for…
+    <br>Than anyone bargained for...
     <br><br>
     
     [BURR]
@@ -294,7 +294,7 @@ var aaronBurrSir = {
     <br><br>
     
     [BURR]
-    <br>…like I said…
+    <br>...like I said...
     <br><br>
     
     [LAURENS]
@@ -324,7 +324,7 @@ var aaronBurrSir = {
     
     [MULLIGAN]
     <br>Lock up ya daughters and horses, of course
-    <br>It's hard to have *********** over four sets of corsets…
+    <br>It's hard to have *********** over four sets of corsets...
     <br><br>
     
     [LAFAYETTE]
@@ -333,7 +333,7 @@ var aaronBurrSir = {
     
     [LAURENS]
     <br>No more sex, pour me another brew, son!
-    <br>Let's raise a couple more…
+    <br>Let's raise a couple more...
     <br><br>
     
     [LAURENS/LAFAYETTE/MULLIGAN]
@@ -417,7 +417,7 @@ var myShot = {
     
     [HAMILTON/LAFAYETTE/MULLIGAN/LAURENS]
     <br>A-L-E-X-A-N-D
-    <br>E-R-we are-meant to be…
+    <br>E-R-we are-meant to be...
     <br><br>
     
     [HAMILTON]
@@ -671,11 +671,109 @@ var myShot = {
 };
 
 var storyOfTonight = {
-  title:"",
-  lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
-  c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
-  k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
+  title:"The Story Of Tonight",
+  lyrics:`
+    [HAMILTON]
+    <br>I may not live to see our glory!
+    <br><br>
+    
+    [LAFAYETTE/MULLIGAN/LAURENS]
+    <br>I may not live to see our glory!
+    <br><br>
+    
+    [HAMILTON]
+    <br>But I will gladly join the fight!
+    <br><br>
+    
+    [LAFAYETTE/MULLIGAN/LAURENS]
+    <br>But I will gladly join the fight!
+    <br><br>
+    
+    [HAMILTON]
+    <br>And when our children tell our story...
+    <br><br>
+    
+    [LAFAYETTE/MULLIGAN/LAURENS]
+    <br>And when our children tell our story...
+    <br><br>
+    
+    [HAMILTON]
+    <br>They’ll tell the story of tonight
+    <br><br>
+    
+    [MULLIGAN]
+    <br>Let’s have another round tonight
+    <br><br>
+    
+    [LAFAYETTE]
+    <br>Let’s have another round tonight
+    <br><br>
+    
+    [HAMILTON]
+    <br>Let’s have another round tonight
+    <br><br>
+    
+    [LAURENS]
+    <br>Raise a glass to freedom
+    <br>Something they can never take away
+    <br>No matter what they tell you
+    <br>Raise a glass to the four of us
+    <br><br>
+    
+    [LAURENS/MULLIGAN]
+    <br>Tomorrow there’ll be more of us
+    <br><br>
+    
+    [MULLIGAN/LAFAYETTE/LAURENS]
+    <br>Telling the story of tonight
+    <br><br>
+    
+    [HAMILTON]
+    <br>They’ll tell the story of tonight
+    <br><br>
+    
+    [LAURENS/MULLIGAN/LAFAYETTE]
+    <br>Raise a glass to freedom
+    <br>Something they can never take away
+    <br><br>
+    
+    [HAMILTON]
+    <br>No matter what they tell you
+    <br><br>
+    
+    [MULLIGAN/LAFAYETTE]
+    <br>Let’s have another round tonight
+    <br><br>
+    
+    [LAURENS]
+    <br>Raise a glass to the four of us
+    <br><br>
+    
+    [HAMILTON/LAURENS/MULLIGAN/LAFAYETTE]
+    <br>Tomorrow there’ll be more of us
+    <br><br>
+    
+    [HAMILTON/LAURENS]
+    <br>Telling the story of tonight
+    <br><br>
+    
+    [MULLIGAN/LAFAYETTE]
+    <br>Let’s have another round tonight
+    <br><br>
+    
+    [HAMILTON/LAURENS/ENSEMBLE]
+    <br>They’ll tell the story of tonight
+    
+    <br>They’ll tell the story of tonight
+    
+    <br>They’ll tell the story of tonight
+    <br><br>
+    
+    [FULL ENSEMBLE]
+    Tonight
+  `,
+  c: `<iframe src="https://www.youtube.com/embed/GIVOjsPrnOs?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  k: `<iframe src="https://www.youtube.com/embed/?Z7ySgjv_zhAautoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var schuylerSisters = {

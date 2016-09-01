@@ -175,12 +175,21 @@ nav {
     display:block;
   }
   
-    .clean {
+    .secondThird {
       margin-left:calc(200% / 3);
     }
 
-    .kareoke {
+    .thirdThird {
       margin-left:calc(100% / 3);
+    }
+    
+    .firstHalf {
+      width:50%;
+    }
+    
+    .secondHalf {
+      width:50%;
+      margin-left:50%;
     }
 
 #modal {
