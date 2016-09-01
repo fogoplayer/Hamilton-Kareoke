@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Hamilton Kareoke</title>
+  <link rel="icon" type="image/png" href= "images/hamilton.jpg">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="media.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div id = "navButton" class = "navButton" onclick = "toggleNav()">&equiv;</div>
+    <div class = "title">Hamilton Kareoke</div>
+  </header>
+
+  <div id = "overlay" onclick = "toggleNav()"></div>
+
+  <nav id = "nav" class = "closed">
+    <button class = "act" onclick = "toggleAct1()">Act One</button><div id = "act1Wrapper">
+        <button class = "act1" onclick = "scroll(1)">1. Alexander Hamilton</button>
+        <button class = "act1" onclick = "scroll(2)">2. Aaron Burr, Sir</button>
+        <button class = "act1" onclick = "scroll(3)">3. My Shot</button>
+        <button class = "act1" onclick = "scroll(4)">4. The Story Of Tonight</button>
+        <button class = "act1" onclick = "scroll(5)">5. The Schuyler Sisters</button>
+        <button class = "act1" onclick = "scroll(6)">6. Farmer Refuted</button>
+        <button class = "act1" onclick = "scroll(7)">7. You'll Be Back</button>
+        <button class = "act1" onclick = "scroll(8)">8. Right Hand Man</button>
+        <button class = "act1" onclick = "scroll(9)">9. A Winter's Ball</button>
+        <button class = "act1" onclick = "scroll(10)">10. Helpless</button>
+        <button class = "act1" onclick = "scroll(11)">11. Satisfied</button>
+        <button class = "act1" onclick = "scroll(12)">12. The Story Of Tonight (Reprise)</button>
+        <button class = "act1" onclick = "scroll(13)">13. Wait For It</button>
+        <button class = "act1" onclick = "scroll(14)">14. Stay Alive</button>
+        <button class = "act1" onclick = "scroll(15)">15. Ten Duel Commandments</button>
+        <button class = "act1" onclick = "scroll(16)">16. Meet Me Inside</button>
+        <button class = "act1" onclick = "scroll(17)">17. That Would Be Enough</button>
+        <button class = "act1" onclick = "scroll(18)">18. Guns and Ships</button>
+        <button class = "act1" onclick = "scroll(19)">19. History Has Its Eyes On You</button>
+        <button class = "act1" onclick = "scroll(20)">20. Yorktown</button>
+        <button class = "act1" onclick = "scroll(21)">21. What Comes Next</button>
+        <button class = "act1" onclick = "scroll(22)">22. Dear Theodosia</button>
+        <button class = "act1" onclick = "scroll(23)">23. Non-Stop</button>
+      </div>
+    <button class = "act" onclick = "toggleAct2()">Act Two</button>
+      <div id = "act2Wrapper">
+        <button class = "act2" onclick = "scroll(24)">24. What'd I Miss</button>
+        <button class = "act2" onclick = "scroll(25)">25. Cabinet Battle #1</button>
+        <button class = "act2" onclick = "scroll(26)">26. Take a Breat</button>
+        <button class = "act2" onclick = "scroll(27)">27. Say No To This</button>
+        <button class = "act2" onclick = "scroll(28)">28. The Room Where It Happens</button>
+        <button class = "act2" onclick = "scroll(29)">29. Schuyler Defeated</button>
+        <button class = "act2" onclick = "scroll(30)">30. Cabinet Battle #2</button>
+        <button class = "act2" onclick = "scroll(31)">31. Washington On Your Side</button>
+        <button class = "act2" onclick = "scroll(32)">32. One Last Time</button>
+        <button class = "act2" onclick = "scroll(33)">33. I Know Him</button>
+        <button class = "act2" onclick = "scroll(34)">34. The Adam Administration</button>
+        <button class = "act2" onclick = "scroll(35)">35. We Know</button>
+        <button class = "act2" onclick = "scroll(36)">36. Hurricane</button>
+        <button class = "act2" onclick = "scroll(37)">37. The Reynolds Pamphlet</button>
+        <button class = "act2" onclick = "scroll(38)">38. Burn</button>
+        <button class = "act2" onclick = "scroll(39)">39. Blow Us All Away</button>
+        <button class = "act2" onclick = "scroll(40)">40. Stay Alive (Reprise)</button>
+        <button class = "act2" onclick = "scroll(41)">41. It's Quiet Uptown</button>
+        <button class = "act2" onclick = "scroll(42)">42. The Election of 1800</button>
+        <button class = "act2" onclick = "scroll(43)">43. Your Obedient Servant</button>
+        <button class = "act2" onclick = "scroll(44)">44. Best of Wives and Best of Women</button>
+        <button class = "act2" onclick = "scroll(45)">45. The World Was Wide Enough</button>
+        <button class = "act2" onclick = "scroll(46)">46. Who Lives, Who Dies, Who Tells Your Story</button>
+      </div>
+    <button class = "act">About/Contribute</button>
+    <button class = "act" onclick = "liteSwitch('index')">Switch to Full Mode</button>
+  </nav>
+
+  <div id = "modal">
+    <div class = "header" style = "z-index:1000">
+      <div id = "back" class = "navButton" onclick = "toggleLyrics('na', 'na')"><i class="material-icons" style = "font-size:64px">arrow_back</i></div>
+      <div id = "modalTitle" class = "title"></div>
+    </div>
+    <div id = "lyrics"></div>
+  </div>
+
+  <div id = "content">
+    <strong>
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">Alexander Hamilton</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(alexanderHamilton, alexanderHamilton.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(alexanderHamilton, alexanderHamilton.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(alexanderHamilton, alexanderHamilton.c)">Clean</button>
+    </div>
+
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">Aaron Burr, Sir</div>
+      <button class = "songLink firstHalf" onclick = "toggleLyrics(aaronBurrSir, aaronBurrSir.e)">Explicit</button>
+      <!--<button class = "songLink secondThird" onclick = "toggleLyrics(aaronBurrSir, aaronBurrSir.k)"></button>-->
+      <button class = "songLink secondHalf" onclick = "toggleLyrics(aaronBurrSir, aaronBurrSir.c)">Clean</button>
+    </div>
+
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">My Shot</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(myShot, myShot.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(myShot, myShot.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(myShot, myShot.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle twoLine">The Story Of<br>Tonight</div>
+      <button class = "songLink firstHalf" onclick = "toggleLyrics(storyOfTonight, storyOfTonight.c)">Original</button>
+      <button class = "songLink secondHalf" onclick = "toggleLyrics(storyOfTonight, storyOfTonight.k)">Kareoke</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle twoLine">The Schuyler<br>Sisters</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(schuylerSisters, schuylerSisters.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(schuylerSisters, schuylerSisters.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(schuylerSisters, schuylerSisters.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">Farmer Refuted</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(schuylerSisters, schuylerSisters.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(schuylerSisters, schuylerSisters.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(schuylerSisters, schuylerSisters.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">You'll Be Back</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(youllBeBack, youllBeBack.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(youllBeBack, youllBeBack.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(youllBeBack, youllBeBack.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">Right Hand Man</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(rightHandMan, rightHandMan.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(rightHandMan, rightHandMan.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(rightHandMan, rightHandMan.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">A Winter's Ball</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(aWintersBall, aWintersBall.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(aWintersBall, aWintersBall.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(aWintersBall, aWintersBall.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">Helpless</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(helpless, helpless.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(helpless, helpless.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(helpless, helpless.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">Satisfied</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(satisfied, satisfied.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(satisfied, satisfied.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(satisfied, satisfied.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle twoLine">The Story Of Tonight (Reprise)</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(storyOfTonightReprise, storyOfTonightReprise.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(storyOfTonightReprise, storyOfTonightReprise.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(storyOfTonightReprise, storyOfTonightReprise.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">Wait for It</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(waitForIt, waitForIt.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(waitForIt, waitForIt.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(waitForIt, waitForIt.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">Stay Alive</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(stayAlive, stayAlive.e)">Explicit</button>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(stayAlive, stayAlive.e)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(stayAlive, stayAlive.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle twoLine">Ten Duel Commandments</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(tenDuelCommandments, tenDuelCommandments.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(tenDuelCommandments, tenDuelCommandments.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(tenDuelCommandments, tenDuelCommandments.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">Meet Me Inside</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(meetMeInside, meetMeInside.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(meetMeInside, meetMeInside.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(meetMeInside, meetMeInside.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle twoLine">That Would Be Enough</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(thatWouldBeEnough, thatWouldBeEnough.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(thatWouldBeEnough, thatWouldBeEnough.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(thatWouldBeEnough, thatWouldBeEnough.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">Guns And Ships</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(gunsAndShips, gunsAndShips.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(gunsAndShips, gunsAndShips.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(gunsAndShips, gunsAndShips.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/historyhasitseyesonyou.jpg"/>
+      <div class = "songTitle twoLine">History Has Its Eyes On You</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(historyHasItsEyesOnYou, historyHasItsEyesOnYou.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(historyHasItsEyesOnYou, historyHasItsEyesOnYou.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(historyHasItsEyesOnYou, historyHasItsEyesOnYou.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">Yorktown</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(yorktown, yorktown.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(yorktown, yorktown.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(yorktown, yorktown.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">What Comes Next</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(whatComesNext, whatComesNext.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(whatComesNext, whatComesNext.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(whatComesNext, whatComesNext.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">Dear Theodosia</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(dearTheodosia, dearTheodosia.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(dearTheodosia, dearTheodosia.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(dearTheodosia, dearTheodosia.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/nonstop.jpg"/>
+      <div class = "songTitle">Non-Stop</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(nonStop, nonStop.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(nonStop, nonStop.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(nonStop, nonStop.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">What'd I Miss</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(whatdIMiss, whatdIMiss.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(whatdIMiss, whatdIMiss.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(whatdIMiss, whatdIMiss.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">Cabinet Battle #1</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(cabinetBattle1, cabinetBattle1.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(cabinetBattle1, cabinetBattle1.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(cabinetBattle1, cabinetBattle1.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">Take A Break</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(takeABreak, takeABreak.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(takeABreak, takeABreak.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(takeABreak, takeABreak.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">Say No To This</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(sayNoToThis, sayNoToThis.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(sayNoToThis, sayNoToThis.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(sayNoToThis, sayNoToThis.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle twoLine">The Room Where It Happens</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(theRoomWhereItHappens, theRoomWhereItHappens.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(theRoomWhereItHappens, theRoomWhereItHappens.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(theRoomWhereItHappens, theRoomWhereItHappens.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">Schuyler Defeated</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(schuylerDefeated, schuylerDefeated.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(schuylerDefeated, schuylerDefeated.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(schuylerDefeated, schuylerDefeated.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">Cabinet Battle #2</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(cabinetBattle2, cabinetBattle2.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(cabinetBattle2, cabinetBattle2.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(cabinetBattle2, cabinetBattle2.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle twoLine">Washington On Your Side</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(washingtonOnYourSide, washingtonOnYourSide.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(washingtonOnYourSide, washingtonOnYourSide.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(washingtonOnYourSide, washingtonOnYourSide.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">One Last Time</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(oneLastTime, oneLastTime.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(oneLastTime, oneLastTime.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(oneLastTime, oneLastTime.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">I Know Him</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(iKnowHim, iKnowHim.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(iKnowHim, iKnowHim.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(iKnowHim, iKnowHim.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle twoLine">The Adams Administration</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(theAdamsAdministraton, theAdamsAdministraton.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(theAdamsAdministraton, theAdamsAdministraton.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(theAdamsAdministraton, theAdamsAdministraton.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">We Know</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(weKnow, weKnow.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(weKnow, weKnow.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(weKnow, weKnow.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">Hurricane</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(hurricane, hurricane.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(hurricane, hurricane.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(hurricane, hurricane.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle twoLine">The Reynolds Pamphlet</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(reynoldsPamphlet, reynoldsPamphlet.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(reynoldsPamphlet, reynoldsPamphlet.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(reynoldsPamphlet, reynoldsPamphlet.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">Burn</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(burn, burn.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(burn, burn.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(burn, burn.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">Blow Us All Away</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(blowUsAllAway, blowUsAllAway.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(blowUsAllAway, blowUsAllAway.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(blowUsAllAway, blowUsAllAway.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">Stay Alive (Reprise)</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(stayAliveReprise, stayAliveReprise.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(stayAliveReprise, stayAliveReprise.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(stayAliveReprise, stayAliveReprise.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle">It's Quiet Uptown</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(itsQiuetUptown, itsQiuetUptown.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(itsQiuetUptown, itsQiuetUptown.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(itsQiuetUptown, itsQiuetUptown.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle twoLine">The Election of<br>1800</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(electionOf1800, electionOf1800.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(electionOf1800, electionOf1800.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(electionOf1800, electionOf1800.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle twoLine">Your Obedient Servant</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(yourObedientServant, yourObedientServant.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(yourObedientServant, yourObedientServant.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(yourObedientServant, yourObedientServant.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle twoLine">Best of Wives and Best of Women</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(bestOfWivesAndBestOfWomen, bestOfWivesAndBestOfWomen.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(bestOfWivesAndBestOfWomen, bestOfWivesAndBestOfWomen.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(bestOfWivesAndBestOfWomen, bestOfWivesAndBestOfWomen.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle twoLine">The World Was Wide Enough</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(theWorldWasWideEnough, theWorldWasWideEnough.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(theWorldWasWideEnough, theWorldWasWideEnough.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(theWorldWasWideEnough, theWorldWasWideEnough.c)">Clean</button>
+    </div>
+    
+    <div class = "songCard">
+      <img src = "images/hamilton.jpg"/>
+      <div class = "songTitle twoLine">Who Lives, Who Dies, Who Tells Your Story</div>
+      <button class = "songLink firstThird" onclick = "toggleLyrics(whoLivesWhoDiesWhoTellsYourStory, whoLivesWhoDiesWhoTellsYourStory.e)">Explicit</button>
+      <button class = "songLink secondThird" onclick = "toggleLyrics(whoLivesWhoDiesWhoTellsYourStory, whoLivesWhoDiesWhoTellsYourStory.k)">Kareoke</button>
+      <button class = "songLink thirdThird" onclick = "toggleLyrics(whoLivesWhoDiesWhoTellsYourStory, whoLivesWhoDiesWhoTellsYourStory.c)">Clean</button>
+    </div>
+    </strong>
+    
+  </div>
+</body>
+<script src="objects.js"></script> 
+<script src="main.js"></script>
+</html>
