@@ -1,4 +1,4 @@
-//" " — ' ' …
+//" " " ’ ' …
 
 //Paste this at the end of URLs: ?autoplay=1&controls=0&showinfo=0&rel=0
 var alexanderHamilton = {
@@ -462,7 +462,7 @@ var myShot = {
     [LAFAYETTE]
     <br>I dream of life without a monarchy
     <br>The unrest in France will lead to 'onarchy?
-    <br>'Onarchy? How you say, how you say, oh, 'anarchy?'
+    <br>'Onarchy? How you say, how you, oh, 'anarchy?'
     <br>When I fight, I make the other side panicky
     <br>With my-
     <br><br>
@@ -540,16 +540,12 @@ var myShot = {
     <br>Ev'rybody sing:
     <br>Whoa, whoa, whoa
     <br>Hey!
-    <br>Whoa!
-    <br>Wooh!!
-    <br>Whoa!
+    <br>Whoa, wooh, whoa!
     <br>Ay, let 'em hear ya!
+    <br>Let's go!
     <br><br>
     
-    Let's go!
-    <br><br>
-    
-    <br>I said shout it to the rooftops!
+    I said shout it to the rooftops!
     <br>Said, to the rooftops!
     <br>Come on!
     <br>Come on, let's go!
@@ -698,30 +694,32 @@ var storyOfTonight = {
     <br><br>
     
     [HAMILTON]
-    <br>They’ll tell the story of tonight
+    <br>They'll tell the story of tonight
     <br><br>
     
     [MULLIGAN]
-    <br>Let’s have another round tonight
+    <br>Let's have another round tonight
     <br><br>
     
     [LAFAYETTE]
-    <br>Let’s have another round tonight
+    <br>Let's have another round tonight
     <br><br>
     
     [HAMILTON]
-    <br>Let’s have another round tonight
+    <br>Let's have another round tonight
     <br><br>
     
     [LAURENS]
     <br>Raise a glass to freedom
     <br>Something they can never take away
     <br>No matter what they tell you
-    <br>Raise a glass to the four of us
+    <br><br>
+    
+    Raise a glass to the four of us
     <br><br>
     
     [LAURENS/MULLIGAN]
-    <br>Tomorrow there’ll be more of us
+    <br>Tomorrow there'll be more of us
     <br><br>
     
     [MULLIGAN/LAFAYETTE/LAURENS]
@@ -729,7 +727,7 @@ var storyOfTonight = {
     <br><br>
     
     [HAMILTON]
-    <br>They’ll tell the story of tonight
+    <br>They'll tell the story of tonight
     <br><br>
     
     [LAURENS/MULLIGAN/LAFAYETTE]
@@ -742,7 +740,7 @@ var storyOfTonight = {
     <br><br>
     
     [MULLIGAN/LAFAYETTE]
-    <br>Let’s have another round tonight
+    <br>Let's have another round tonight
     <br><br>
     
     [LAURENS]
@@ -750,7 +748,7 @@ var storyOfTonight = {
     <br><br>
     
     [HAMILTON/LAURENS/MULLIGAN/LAFAYETTE]
-    <br>Tomorrow there’ll be more of us
+    <br>Tomorrow there'll be more of us
     <br><br>
     
     [HAMILTON/LAURENS]
@@ -758,30 +756,299 @@ var storyOfTonight = {
     <br><br>
     
     [MULLIGAN/LAFAYETTE]
-    <br>Let’s have another round tonight
+    <br>Let's have another round tonight
     <br><br>
     
     [HAMILTON/LAURENS/ENSEMBLE]
-    <br>They’ll tell the story of tonight
-    
-    <br>They’ll tell the story of tonight
-    
-    <br>They’ll tell the story of tonight
+    <br>They'll tell the story of tonight
+    <br>Raise a glass to freedom
+    <br>They'll tell the story of tonight
+    <br>Raise a glass to freedom
+    <br>They'll tell the story of tonight
     <br><br>
     
     [FULL ENSEMBLE]
-    Tonight
+    <br>They'll tell the story of tonight
   `,
   c: `<iframe src="https://www.youtube.com/embed/GIVOjsPrnOs?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
-  k: `<iframe src="https://www.youtube.com/embed/?Z7ySgjv_zhAautoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
+  k: `<iframe src="https://www.youtube.com/embed/Z7ySgjv_zhA?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var schuylerSisters = {
-  title:"",
-  lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  title:"The Schuyler Sisters",
+  lyrics:`
+    [BURR]
+    <br>There's nothing rich folks love more
+    <br>Than going downtown and slummin' it with the poor
+    <br>They pull up in their carriages and gawk
+    <br>At the students in the common
+    <br>Just to watch them talk
+    <br>Take Philip Schuyler: the man is loaded
+    <br>Uh-oh, but little does he know that
+    <br>His daughters, Peggy, Angelica, Eliza
+    <br>Sneak into the city just to watch all the guys at-
+    <br><br>
+    
+    [COMPANY]
+    <br>Work, work!
+    <br><br>
+    
+    [ANGELICA]
+    <br>Angelica!
+    <br><br>
+    
+    [COMPANY]
+    <br>Work, work!
+    <br><br>
+    
+    [ELIZA]
+    <br>Eliza!
+    <br><br>
+    
+    [PEGGY]
+    <br>And Peggy!
+    <br><br>
+    
+    [COMPANY]
+    <br>Work, work!
+    <br>The Schuyler sisters!
+    <br><br>
+    
+    [ANGELICA]
+    <br>Angelica!
+    <br><br>
+    
+    [PEGGY]
+    <br>Peggy!
+    <br><br>
+    
+    [ELIZA]
+    <br>Eliza!
+    <br><br>
+    
+    [COMPANY]
+    <br>Work!
+    <br><br>
+    
+    [PEGGY]
+    <br>Daddy said to be home by sundown
+    <br><br>
+    
+    [ANGELICA]
+    <br>Daddy doesn't need to know
+    <br><br>
+    
+    [PEGGY]
+    <br>Daddy said not to go downtown
+    <br><br>
+    
+    [ELIZA]
+    <br>Like I said, you're free to go
+    <br><br>
+    
+    [ANGELICA]
+    <br>But-look around, look around, the
+    <br>Revolution's happening in New York
+    <br><br>
+    
+    [ELIZA/PEGGY]
+    <br>New York
+    <br><br>
+    
+    [COMPANY]
+    <br>Angelica
+    <br><br>
+    
+    [SCHUYLER SISTERS AND COMPANY]
+    <br>Work!
+    <br><br>
+    
+    [PEGGY]
+    <br>It's bad enough daddy wants to go to war
+    <br><br>
+    
+    [ELIZA]
+    <br>People shouting in the square
+    <br><br>
+    
+    [PEGGY]
+    <br>It's bad enough there'll be violence on our shore
+    <br><br>
+    
+    [ANGELICA]
+    <br>New ideas in the air
+    <br><br>
+    
+    [ANGELICA AND MALE ENSEMBLE]
+    <br>Look around, look around-
+    <br><br>
+    
+    [ELIZA]
+    <br>Angelica, remind me what we're look...
+    <br><br>
+    
+    [ALL MEN]
+    <br>She's lookin' for me!
+    <br><br>
+    
+    [ANGELICA]
+    <br>Eliza, I'm lookin' for a mind at work
+    <br>I'm lookin' for a mind at work! (Work!)
+    <br>I'm lookin' for a mind at work! (Work!)
+    <br>Whooaaaaa!
+    <br><br>
+    
+    [ELIZA/ANGELICA/PEGGY]
+    <br>Whooaaaaa!
+    <br>Work!
+    <br><br>
+    
+    [BURR]
+    <br>Wooh! There's nothin' like summer in the city
+    <br>Someone in a rush next to someone lookin' pretty
+    <br>Excuse me, miss, I know it's not funny
+    <br>But your perfume smells like your daddy's got money
+    <br>Why you slummin' in the city in your fancy heels
+    <br>You searchin for an urchin who can give you ideals?
+    <br><br>
+    
+    [ANGELICA]
+    <br>Burr, you disgust me
+    <br><br>
+    
+    [BURR]
+    <br>Ah, so you've discussed me
+    <br>I'm a trust fund, baby, you can trust me!
+    <br><br>
+    
+    [ANGELICA]
+    <br>I've been reading Common Sense by Thomas Paine
+    <br>So men say that I'm intense or I'm insane
+    <br>You want a revolution? I want a revelation
+    <br>So listen to my declaration:
+    <br><br>
+    
+    [ELIZA/ANGELICA/PEGGY]
+    <br>"We hold these truths to be self-evident
+    <br>That all men are created equal"
+    <br><br>
+    
+    [ANGELICA]
+    <br>And when I meet Thomas Jefferson
+    <br><br>
+    
+    [COMPANY]
+    <br>Unh!
+    <br><br>
+    
+    [ANGELICA]
+    <br>I'm 'a compel him to include women in the sequel!
+    <br><br>
+    
+    [WOMEN]
+    <br>Work!
+    <br><br>
+    
+    [ELIZA]
+    <br>Look around, look around at how
+    <br>Lucky we are to be alive right now!
+    <br><br>
+    
+    [ELIZA/PEGGY]
+    <br>Look around, look around at how
+    <br>Lucky we are to be alive right now!
+    <br><br>
+    
+    [ELIZA/ANGELICA/PEGGY]
+    <br>History is happening in Manhattan and we just happen to be
+    <br>In the greatest city in the world!
+    <br><br>
+    
+    [SCHUYLER SISTERS AND COMPANY]
+    <br>In the greatest city in the world!
+    <br><br>
+    
+    [ANGELICA]
+    <br>Cuz I've been reading Common Sense by Thomas Paine
+    <br>So men say that I'm intense or I'm insane
+    <br>You want a revolution?
+    <br>I want a revelation
+    <br>So listen to my declaration:
+    <br><br>
+    
+    [ANGELICA/ELIZA/PEGGY]
+    <br>We hold these truths to be self evident that all men are created equal
+    <br>Whoo!
+    <br><br>
+    
+    [FULL COMPANY]
+    <br>Look around, look around at how lucky we are to be alive right now!
+    <br>History is happening in Manhattan and we just happen to be
+    <br><br>
+    
+    [ALL WOMEN]
+    <br>In the greatest city in the world
+    <br><br>
+    
+    [ALL MEN]
+    <br>In the greatest city-
+    <br><br>
+    
+    [COMPANY]
+    <br>In the greatest city in the world!
+    <br><br>
+    
+    [COMPANY]
+    <br>Work, work!
+    <br><br>
+    
+    [ANGELICA]
+    <br>Angelica!
+    <br><br>
+    
+    [COMPANY]
+    <br>Work, work!
+    <br><br>
+    
+    [ELIZA]
+    <br>Eliza!
+    <br><br>
+    
+    [PEGGY]
+    <br>And Peggy!
+    <br><br>
+    
+    [COMPANY]
+    <br>Work, work!
+    <br><br>
+    
+    [ANGELICA/ELIZA/PEGGY]
+    <br>The Schuyler sisters!
+    <br><br>
+    
+    [COMPANY]
+    <br>Work, work!
+    <br><br>
+    
+    We're looking for a mind at work!
+    <br>Hey!
+    <br>Hey!
+    <br><br>
+    
+    [ANGELICA]
+    <br>Whoa!
+    <br><br>
+    
+    <br>In the greatest city in the 
+    <br>Greatest city in the world
+    <br><br>
+    
+    [COMPANY]
+    <br>In the greatest city in the world!
+  `,
+  e: `<iframe src="https://www.youtube.com/embed/xZdrzOdd8Kw?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
-  k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
+  k: `<iframe src="https://www.youtube.com/embed/8jn3BuFiV8o?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var farmerRefuted = {

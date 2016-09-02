@@ -37,7 +37,7 @@ body {
   .navButton {
     height:64px;
     width:64px;
-    font-size:64px;
+    font-size:48px;
     line-height:64px;
     text-align:center;
     display:inline-block;
@@ -47,7 +47,7 @@ body {
     float:right;
     text-align:left;
     line-height:64px;
-    font-size:30px;
+    font-size:32px;
     height:100%;
     width:calc(100% - 64px);
     display:inline-block;
@@ -212,9 +212,9 @@ nav {
     position:fixed;
     font-size:24px;
     padding-left: 64px;
-    padding-top:80px;
-    padding-bottom:64px;
-    height:calc(100vh - 80px);
+    padding-top:96px;
+    padding-bottom:32px;
+    height:calc(100vh - 128px);
     width:calc(100vw - 460px);
     padding-right:460px;
     overflow-y:scroll;

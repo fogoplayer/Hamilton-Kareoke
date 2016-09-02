@@ -13,6 +13,8 @@ var toggleNav = function(){
     overlay.className = "visible";
   }else{
     nav.className = "closed";
+    act1Wrapper.style.height = "0px";
+    act2Wrapper.style.height = "0px";
     overlay.style.display = "none";
     overlay.className = "";
   }

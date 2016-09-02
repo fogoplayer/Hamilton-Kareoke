@@ -75,7 +75,7 @@
 
   <div id = "modal">
     <div class = "header" style = "z-index:1000">
-      <div id = "back" class = "navButton" onclick = "toggleLyrics('na', 'na')"><i class="material-icons" style = "font-size:64px">arrow_back</i></div>
+      <div id = "back" class = "navButton" onclick = "toggleLyrics('na', 'na')">&#10005;<!--<i class="material-icons" style = "font-size:32px; line-height:64px; display:inline">arrow_back</i>--></div>
       <div id = "modalTitle" class = "title"></div>
     </div>
     <div id = "lyrics"></div>
@@ -117,9 +117,8 @@
     <div class = "songCard">
       <img src = "images/hamilton.jpg"/>
       <div class = "songTitle twoLine">The Schuyler<br>Sisters</div>
-      <button class = "songLink firstThird" onclick = "toggleLyrics(schuylerSisters, schuylerSisters.e)">Explicit</button>
-      <button class = "songLink secondThird" onclick = "toggleLyrics(schuylerSisters, schuylerSisters.k)">Kareoke</button>
-      <button class = "songLink thirdThird" onclick = "toggleLyrics(schuylerSisters, schuylerSisters.c)">Clean</button>
+      <button class = "songLink firstHalf" onclick = "toggleLyrics(schuylerSisters, schuylerSisters.e)">Original</button>
+      <button class = "songLink secondHalf" onclick = "toggleLyrics(schuylerSisters, schuylerSisters.k)">Kareoke</button>
     </div>
     
     <div class = "songCard">
