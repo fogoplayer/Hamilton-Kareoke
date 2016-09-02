@@ -219,3 +219,8 @@ nav {
     padding-right:460px;
     overflow-y:scroll;
   }
+  
+  .2Columns {
+    width:calc((100vw - 460px) / 2);
+    display:inline-block;
+  }

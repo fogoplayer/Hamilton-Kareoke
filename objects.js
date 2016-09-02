@@ -1,10 +1,10 @@
-//" " " ’ ' …
+//" " " ' ' …
 
 //Paste this at the end of URLs: ?autoplay=1&controls=0&showinfo=0&rel=0
 var alexanderHamilton = {
   title: "Alexander Hamilton",
   lyrics:`
-    [BURR]
+    <strong>[BURR]</strong></strong>
     <br>How does a ******, orphan, son of a ***** and a
     <br>Scotsman, dropped in the middle of a
     <br>Forgotten spot in the Caribbean by providence
@@ -12,7 +12,7 @@ var alexanderHamilton = {
     <br>Grow up to be a hero and a scholar?
     <br><br>
     
-    [LAURENS]
+    <strong>[LAURENS]</strong>
     <br>The ten-dollar founding father without a father
     <br>Got a lot farther by working a lot harder
     <br>By being a lot smarter
@@ -21,58 +21,58 @@ var alexanderHamilton = {
     <br>Trading charter
     <br><br>
     
-    [JEFFERSON]
+    <strong>[JEFFERSON]</strong>
     <br>And every day while slaves were being slaughtered and carted
     <br>Away across the waves, he struggled and kept his guard up
     <br>Inside, he was longing for something to be a part of
     <br>The brother was ready to beg, steal, borrow, or barter
     <br><br>
     
-    [MADISON]
+    <strong>[MADISON]</strong>
     <br>Then a hurricane came, and devastation reigned
     <br>Our man saw his future drip, dripping down the drain
     <br>Put a pencil to his temple, connected it to his brain
     <br>And he wrote his first refrain, a testament to his pain
     <br><br>
     
-    [BURR]
+    <strong>[BURR]</strong>
     <br>Well, the word got around, they said, "This kid is insane, man"
     <br>Took up a collection just to send him to the mainland
     <br>"Get your education, don't forget from whence you came, and
     <br>The world is gonna know your name. What's your name, man?"
     <br><br>
     
-    [HAMILTON]
+    <strong>[HAMILTON]</strong>
     <br>Alexander Hamilton
     <br>My name is Alexander Hamilton
     <br>And there's a million things I haven't done
     <br>But just you wait, just you wait...
     <br><br>
     
-    [ELIZA]
+    <strong>[ELIZA]</strong>
     <br>When he was ten his father split, full of it, debt-ridden
     <br>Two years later, see Alex and his mother bed-ridden
     <br>Half-dead sittin' in their own sick, the scent thick
     <br><br>
     
-    [COMPANY]
+    <strong>[COMPANY]</strong>
     <br>And Alex got better but his mother went quick
     <br><br>
     
-    [WASHINGTON]
+    <strong>[WASHINGTON]</strong>
     <br>Moved in with a cousin, the cousin committed suicide
     <br>Left him with nothin' but ruined pride, something new inside
     <br>A voice saying
     <br><br>
     
-    [COMPANY]
+    <strong>[COMPANY]</strong>
     <br>"Alex, you gotta fend for yourself."
     <br><br>
     
-    [WASHINGTON]
+    <strong>[WASHINGTON]</strong>
     <br>He started retreatin' and readin' every treatise on the shelf
     
-    [BURR]
+    <strong>[BURR]</strong>
     <br>There would have been nothin' left to do
     <br>For someone less astute
     <br>He woulda been dead or destitute
@@ -85,7 +85,7 @@ var alexanderHamilton = {
     <br>In New York you can be a new man	 
     <br><br>
     
-    [COMPANY]
+    <strong>[COMPANY]</strong>
     <br>In New York you can
     <br>Be a new man-
     <br>In New York you can
@@ -94,17 +94,17 @@ var alexanderHamilton = {
     
     <br>In New York you can be a new man-
     <br><br>
-    [WOMEN]
+    <strong>[WOMEN]</strong>
     <br>In New York-	 
     <br><br>
-    [MEN]
+    <strong>[MEN]</strong>
     <br>New York-
     <br><br>
-    [HAMILTON]
+    <strong>[HAMILTON]</strong>
     <br>Just you wait!
     <br><br>
     
-    [COMPANY]
+    <strong>[COMPANY]</strong>
     <br>Alexander Hamilton
     
     <br>We are waiting in the wings for you
@@ -120,7 +120,7 @@ var alexanderHamilton = {
     <br>The world will never be the same, oh
     <br><br>
     
-    [BURR]
+    <strong>[BURR]</strong>
     <br>The ship is in the harbor now
     <br>See if you can spot him
     
@@ -131,7 +131,7 @@ var alexanderHamilton = {
     <br>America forgot him
     <br><br>
     
-    [COMPANY]
+    <strong>[COMPANY]</strong>
     <br>Alexander Hamilton
     
     <br>Waiting in the wings for you
@@ -145,43 +145,43 @@ var alexanderHamilton = {
     <br>The world will never be the same, oh
     <br><br>
     
-    [MEN]
+    <strong>[MEN]</strong>
     <br>Just you wait
     <br><br>
     
-    [COMPANY]
+    <strong>[COMPANY]</strong>
     <br>Just you wait
     <br><br>
     
-    [MULLIGAN/MADISON & LAFAYETTE/JEFFERSON]
+    <strong>[MULLIGAN/MADISON & LAFAYETTE/JEFFERSON]</strong>
     <br>We fought with him
     <br><br>
     
-    [LAURENS/PHILIP]
+    <strong>[LAURENS/PHILIP]</strong>
     <br>Me? I died for him
     <br><br>
     
-    [WASHINGTON]
+    <strong>[WASHINGTON]</strong>
     <br>Me? I trusted him
     <br><br>
     
-    [ELIZA & ANGELICA & PEGGY/MARIA]
+    <strong>[ELIZA & ANGELICA & PEGGY/MARIA]</strong>
     <br>Me? I loved him
     <br><br>
     
-    [BURR]
+    <strong>[BURR]</strong>
     <br>And me? I'm the dang fool that shot him
     <br><br>
     
-    [COMPANY]
+    <strong>[COMPANY]</strong>
     <br>There's a million things I haven't done
     <br>But just you wait!
     <br><br>
-    [BURR]
+    <strong>[BURR]</strong>
     <br>What's your name, man?
     <br><br>
     
-    [COMPANY]
+    <strong>[COMPANY]</strong>
     <br>Alexander Hamilton!
   `,
   
@@ -193,111 +193,111 @@ var alexanderHamilton = {
 var aaronBurrSir = {
   title:"Aaron Burr, Sir",
   lyrics:`
-    [COMPANY]
+    <strong>[COMPANY]</strong>
     <br>1776. New York City
     <br><br>
     
-    [HAMILTON]
+    <strong>[HAMILTON]</strong>
     <br>Pardon me. Are you Aaron Burr, sir?
     <br><br>
-    [BURR]
+    <strong>[BURR]</strong>
     <br>That depends. Who's asking?
     <br><br>
     
-    [HAMILTON]
+    <strong>[HAMILTON]</strong>
     <br>Oh, well, sure, sir
     <br>I'm Alexander Hamilton, I'm at your service, sir
     <br>I have been looking for you
     <br><br>
     
-    [BURR]
+    <strong>[BURR]</strong>
     <br>I'm getting nervous
     <br><br>
     
-    [HAMILTON]
+    <strong>[HAMILTON]</strong>
     <br>Sir...
     <br>I heard your name at Princeton. I was seeking an accelerated course of study when I got sort of out of sorts with a buddy of yours. I may have punched him. It's a blur, sir. He handles the financials?
     <br><br>
     
-    [BURR]
+    <strong>[BURR]</strong>
     <br>You punched the bursar
     <br><br>
     
-    [HAMILTON]
+    <strong>[HAMILTON]</strong>
     <br>Yes!
     <br>I wanted to do what you did. Graduate in two, then join the revolution. He looked at me like I was stupid, I'm not stupid
     <br>So how'd you do it? How'd you graduate so fast?
     <br><br>
     
-    [BURR]
+    <strong>[BURR]</strong>
     <br>It was my parents' dying wish before they passed
     <br><br>
     
-    [HAMILTON]
+    <strong>[HAMILTON]</strong>
     <br>You're an orphan. Of course! I'm an orphan
     <br>Gosh, I wish there was a war!
     <br>Then we could prove that we're worth more
     <br>Than anyone bargained for...
     <br><br>
     
-    [BURR]
+    <strong>[BURR]</strong>
     <br>Can I buy you a drink?
     <br><br>
     
-    [HAMILTON]
+    <strong>[HAMILTON]</strong>
     <br>That would be nice
     <br><br>
     
-    [BURR]
+    <strong>[BURR]</strong>
     <br>While we're talking, let me offer you some free advice
     <br>Talk less
     <br><br>
     
-    [HAMILTON]
+    <strong>[HAMILTON]</strong>
     <br>What?
     <br><br>
     
-    [BURR]
+    <strong>[BURR]</strong>
     <br>Smile more
     
-    [HAMILTON]
+    <strong>[HAMILTON]</strong>
     <br>Ha
     <br><br>
     
-    [BURR]
+    <strong>[BURR]</strong>
     <br>Don't let them know what you're against or what you're for
     <br><br>
     
-    [HAMILTON]
+    <strong>[HAMILTON]</strong>
     <br>You can't be serious
     <br><br>
     
-    [BURR]
+    <strong>[BURR]</strong>
     <br>You wanna get ahead?
     <br><br>
     
-    [HAMILTON]
+    <strong>[HAMILTON]</strong>
     <br>Yes
     <br><br>
     
-    [BURR]
+    <strong>[BURR]</strong>
     <br>Fools who run their mouths off wind up dead
     <br><br>
     
-    <br>[LAURENS]
+    <br><strong>[LAURENS]</strong>
     <br>Yo yo yo yo yo!
     <br>What time is it?
     <br><br>
     
-    [LAURENS/LAFAYETTE/MULLIGAN]
+    <strong>[LAURENS/LAFAYETTE/MULLIGAN]</strong>
     <br>Show time!
     <br><br>
     
-    [BURR]
+    <strong>[BURR]</strong>
     <br>...like I said...
     <br><br>
     
-    [LAURENS]
+    <strong>[LAURENS]</strong>
     <br>Show time! Show time! Yo!
     <br>I'm John Laurens in the place to be!
     <br>Two pints o' Sam Adams, but I'm workin' on three, uh!
@@ -305,7 +305,7 @@ var aaronBurrSir = {
     <br>Cuz I will pop chick-a pop these cops till I'm free!
     <br><br>
     
-    [LAFAYETTE]
+    <strong>[LAFAYETTE]</strong>
     <br>Oui oui, mon ami, je m'appelle Lafayette!
     <br>The Lancelot of the revolutionary set!
     <br>I came from afar just to say "Bonsoir!"
@@ -313,75 +313,75 @@ var aaronBurrSir = {
     <br>C'est moi!
     <br><br>
     
-    [MULLIGAN]
+    <strong>[MULLIGAN]</strong>
     <br>Brrrah brraaah! I am Hercules Mulligan
     <br>Up in it, lovin' it, yes I heard ya mother said "Come again?"
     <br><br>
     
-    [LAFAYETTE & LAURENS]
+    <strong>[LAFAYETTE & LAURENS]</strong>
     <br>Ayyyyy
     <br><br>
     
-    [MULLIGAN]
+    <strong>[MULLIGAN]</strong>
     <br>Lock up ya daughters and horses, of course
     <br>It's hard to have *********** over four sets of corsets...
     <br><br>
     
-    [LAFAYETTE]
+    <strong>[LAFAYETTE]</strong>
     <br>Wow
     <br><br>
     
-    [LAURENS]
+    <strong>[LAURENS]</strong>
     <br>No more sex, pour me another brew, son!
     <br>Let's raise a couple more...
     <br><br>
     
-    [LAURENS/LAFAYETTE/MULLIGAN]
+    <strong>[LAURENS/LAFAYETTE/MULLIGAN]</strong>
     <br>To the revolution!
     <br><br>
     
-    [LAURENS]
+    <strong>[LAURENS]</strong>
     <br>Well, if it ain't the prodigy of Princeton college!
     <br><br>
     
-    [MULLIGAN]
+    <strong>[MULLIGAN]</strong>
     <br>Aaron Burr!
     <br><br>
     
-    [LAURENS]
+    <strong>[LAURENS]</strong>
     <br>Give us a verse, drop some knowledge!
     <br><br>
     
-    [BURR]
+    <strong>[BURR]</strong>
     <br>Good luck with that: you're takin' a stand
     <br>You spit. I'm 'a sit. We'll see where we land
     <br><br>
     
-    [LAFAYETTE/MULLIGAN]
+    <strong>[LAFAYETTE/MULLIGAN]</strong>
     <br>Boooo!
     <br><br>
-    [LAURENS]
+    <strong>[LAURENS]</strong>
     <br>Burr, the revolution's imminent. What do you stall for?
     <br><br>
     
-    [HAMILTON]
+    <strong>[HAMILTON]</strong>
     <br>If you stand for nothing, Burr, what'll you fall for?
     <br><br>
     
-    [LAURENS]
+    <strong>[LAURENS]</strong>
     <br>Ooh
     <br>Who are you?
     <br><br>
     
-    [MULLIGAN]
+    <strong>[MULLIGAN]</strong>
     <br>Who are you?
     <br><br>
     
-    [LAFAYETTE]
+    <strong>[LAFAYETTE]</strong>
     <br>Who are you?
     <br><br>
     
-    [MULLIGAN/LAFAYETTE/LAURENS]
+    <strong>[MULLIGAN/LAFAYETTE/LAURENS]</strong>
     <br>Ooh, who is this kid? What's he gonna do?
   `,
   e: `<iframe src="https://www.youtube.com/embed/sEH9I_oJfqY?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
@@ -392,7 +392,7 @@ var aaronBurrSir = {
 var myShot = {
   title:"My Shot",
   lyrics:`
-    [HAMILTON]
+    <strong>[HAMILTON]</strong>
     <br>I am not throwing away my shot!
     <br>I am not throwing away my shot!
     <br>Hey yo, I'm just like my country
@@ -415,12 +415,12 @@ var myShot = {
     <br>I am the-
     <br><br>
     
-    [HAMILTON/LAFAYETTE/MULLIGAN/LAURENS]
+    <strong>[HAMILTON / LAFAYETTE / MULLIGAN / LAURENS]</strong>
     <br>A-L-E-X-A-N-D
     <br>E-R-we are-meant to be...
     <br><br>
     
-    [HAMILTON]
+    <strong>[HAMILTON]</strong>
     <br>A colony that runs independently
     <br>Meanwhile, Britain keeps sittin' on us endlessly
     <br>Essentially, they tax us relentlessly
@@ -430,17 +430,17 @@ var myShot = {
     <br>Enter me!
     <br><br>
     
-    [LAFAYETTE/MULLIGAN/LAURENS]
+    <strong>[LAFAYETTE / MULLIGAN / LAURENS]</strong>
     <br>(He says in parentheses)
     <br><br>
     
-    [HAMILTON]
+    <strong>[HAMILTON]</strong>
     <br>Don't be shocked when your hist'ry book mentions me
     <br>I will lay down my life if it sets us free
     <br>Eventually, you'll see my ascendancy
     <br><br>
     
-    [HAMILTON]
+    <strong>[HAMILTON]</strong>
     <br>And I am not throwing away
     <br>My shot
     <br>I am not throwing away
@@ -450,7 +450,7 @@ var myShot = {
     <br>And I'm not throwing away my shot
     <br><br>
     
-    [HAMILTON/MULLIGAN/LAURENS/LAFAYETTE]
+    <strong>[HAMILTON / LAFAYETTE / MULLIGAN / LAURENS]</strong>
     <br>I am not throwing away my shot
     <br>I am not throwing away my shot
     <br>Hey yo, I'm just like my country
@@ -459,7 +459,7 @@ var myShot = {
     <br>It's time to take a shot!
     <br><br>
     
-    [LAFAYETTE]
+    <strong>[LAFAYETTE]</strong>
     <br>I dream of life without a monarchy
     <br>The unrest in France will lead to 'onarchy?
     <br>'Onarchy? How you say, how you, oh, 'anarchy?'
@@ -467,11 +467,11 @@ var myShot = {
     <br>With my-
     <br><br>
     
-    [HAMILTON/LAURENS/LAFAYETTE/MULLIGAN]
+    <strong>[HAMILTON / LAFAYETTE / MULLIGAN / LAURENS]</strong>
     <br>Shot!
     <br><br>
     
-    [MULLIGAN]
+    <strong>[MULLIGAN]</strong>
     <br>Yo, I'm a tailor's apprentice
     <br>And I got y'all knuckleheads in loco parentis
     <br>I'm joining the rebellion cuz I know it's my chance
@@ -479,10 +479,10 @@ var myShot = {
     <br>I'm gonna take a-
     <br><br>
     
-    [HAMILTON/LAURENS/LAFAYETTE/MULLIGAN]
+    <strong>[HAMILTON / LAFAYETTE / MULLIGAN / LAURENS]</strong>
     <br>Shot!
     
-    [LAURENS]
+    <strong>[LAURENS]</strong>
     <br>But we'll never be truly free
     <br>Until those in bondage have the same rights as you and me
     <br>You and I. Do or die. Wait till I sally in
@@ -490,10 +490,10 @@ var myShot = {
     <br>Have another-
     <br><br>
     
-    [HAMILTON/LAURENS/LAFAYETTE/MULLIGAN]
+    <strong>[HAMILTON / LAFAYETTE / MULLIGAN / LAURENS]</strong>
     <br>Shot!
     
-    [BURR]
+    <strong>[BURR]</strong>
     <br>Geniuses, lower your voices
     <br>You keep out of trouble and you double your choices
     <br>I'm with you, but the situation is fraught
@@ -501,7 +501,7 @@ var myShot = {
     <br>If you talk, you're gonna get shot!
     <br><br>
     
-    [HAMILTON]
+    <strong>[HAMILTON]</strong>
     <br>Burr, check what we got
     <br>Mister Lafayette, hard rock like Lancelot
     <br>I think your pants look hot
@@ -519,10 +519,10 @@ var myShot = {
     <br>I promise that I'll make y'all proud
     <br><br>
     
-    [LAURENS]
+    <strong>[LAURENS]</strong>
     <br>Let's get this guy in front of a crowd
     
-    [HAMILTON/LAURENS/LAFAYETTE/MULLIGAN/ENSEMBLE]
+    <strong>[HAMILTON/LAURENS/LAFAYETTE/MULLIGAN/ENSEMBLE]</strong>
     <br>I am not throwing away my shot
     <br>I am not throwing away my shot
     <br>Hey yo, I'm just like my country
@@ -536,7 +536,7 @@ var myShot = {
     <br>And I'm not throwing away my shot
     <br><br>
     
-    [LAURENS]
+    <strong>[LAURENS]</strong>
     <br>Ev'rybody sing:
     <br>Whoa, whoa, whoa
     <br>Hey!
@@ -551,14 +551,14 @@ var myShot = {
     <br>Come on, let's go!
     <br><br>
     
-    [LAURENS]
+    <strong>[LAURENS]</strong>
     <br>Rise up!
     <br>When you're living on your knees, you rise up
     <br>Tell your brother that he's gotta rise up
     <br>Tell your sister that she's gotta rise up
     <br><br>
     
-    [LAURENS AND ENSEMBLE]
+    <strong>[LAURENS AND ENSEMBLE]</strong>
     <br>When are these colonies gonna rise up?
     <br>When are these colonies gonna rise up?
     <br>When are these colonies gonna rise up?
@@ -568,7 +568,7 @@ var myShot = {
     Rise up!
     <br><br>
     
-    [HAMILTON]
+    <strong>[HAMILTON]</strong>
     <br>I imagine death so much it feels more like a memory
     <br>When's it gonna get me?
     <br>In my sleep? Seven feet ahead of me?
@@ -602,7 +602,7 @@ var myShot = {
     <br>For the first time, I'm thinkin' past tomorrow
     <br><br>
     
-    [HAMILTON AND COMPANY]
+    <strong>[HAMILTON AND COMPANY]</strong>
     <br>And I am not throwing away my shot
     <br>I am not throwing away my shot
     <br>Hey yo, I'm just like my country
@@ -610,43 +610,43 @@ var myShot = {
     <br>And I'm not throwing away my shot
     <br><br>
     
-    [HAMILTON/LAURENS/LAFAYETTE/MULLIGAN]
+    <strong>[HAMILTON / LAFAYETTE / MULLIGAN / LAURENS]</strong>
     <br>We're gonna rise up! Time to take a shot!
     <br>We're gonna rise up! Time to take a shot!
     <br>We're gonna
     <br><br>
     
-    [COMPANY]
+    <strong>[COMPANY]</strong>
     <br>Rise up!
     <br>Rise up!
     <br><br>
     
-    [HAMILTON]
+    <strong>[HAMILTON]</strong>
     <br>It's time to take a shot!
     <br><br>
     
-    [COMPANY]
+    <strong>[COMPANY]</strong>
     <br>Rise up!
     <br>Rise up!
     <br><br>
     
-    [HAMILTON/LAURENS/LAFAYETTE/MULLIGAN]
+    <strong>[HAMILTON / LAFAYETTE / MULLIGAN / LAURENS]</strong>
     <br>It's time to take a shot!
     <br><br>
     
-    [COMPANY]
+    <strong>[COMPANY]</strong>
     <br>Rise up!
     <br><br>
     
-    [HAMILTON/LAURENS/LAFAYETTE/MULLIGAN]
+    <strong>[HAMILTON / LAFAYETTE / MULLIGAN / LAURENS]</strong>
     <br>It's time to take a shot!
     <br><br>
     
-    [COMPANY]
+    <strong>[COMPANY]</strong>
     <br>Rise up!
     <br><br>
     
-    [HAMILTON/LAURENS/LAFAYETTE/MULLIGAN]
+    <strong>[HAMILTON / LAFAYETTE / MULLIGAN / LAURENS]</strong>
     <br>Take a shot!
     <br>A shot!
     <br>A shot!
@@ -657,7 +657,7 @@ var myShot = {
     <br>And I am not throwing away my
     <br><br>
     
-    [COMPANY]
+    <strong>[COMPANY]</strong>
     <br>Not throwing away my
     <br>Shot!
   `,
@@ -669,47 +669,47 @@ var myShot = {
 var storyOfTonight = {
   title:"The Story Of Tonight",
   lyrics:`
-    [HAMILTON]
+    <strong>[HAMILTON]</strong>
     <br>I may not live to see our glory!
     <br><br>
     
-    [LAFAYETTE/MULLIGAN/LAURENS]
+    <strong>[LAFAYETTE/MULLIGAN/LAURENS]</strong>
     <br>I may not live to see our glory!
     <br><br>
     
-    [HAMILTON]
+    <strong>[HAMILTON]</strong>
     <br>But I will gladly join the fight!
     <br><br>
     
-    [LAFAYETTE/MULLIGAN/LAURENS]
+    <strong>[LAFAYETTE/MULLIGAN/LAURENS]</strong>
     <br>But I will gladly join the fight!
     <br><br>
     
-    [HAMILTON]
+    <strong>[HAMILTON]</strong>
     <br>And when our children tell our story...
     <br><br>
     
-    [LAFAYETTE/MULLIGAN/LAURENS]
+    <strong>[LAFAYETTE/MULLIGAN/LAURENS]</strong>
     <br>And when our children tell our story...
     <br><br>
     
-    [HAMILTON]
+    <strong>[HAMILTON]</strong>
     <br>They'll tell the story of tonight
     <br><br>
     
-    [MULLIGAN]
+    <strong>[MULLIGAN]</strong>
     <br>Let's have another round tonight
     <br><br>
     
-    [LAFAYETTE]
+    <strong>[LAFAYETTE]</strong>
     <br>Let's have another round tonight
     <br><br>
     
-    [HAMILTON]
+    <strong>[HAMILTON]</strong>
     <br>Let's have another round tonight
     <br><br>
     
-    [LAURENS]
+    <strong>[LAURENS]</strong>
     <br>Raise a glass to freedom
     <br>Something they can never take away
     <br>No matter what they tell you
@@ -718,48 +718,48 @@ var storyOfTonight = {
     Raise a glass to the four of us
     <br><br>
     
-    [LAURENS/MULLIGAN]
+    <strong>[LAURENS/MULLIGAN]</strong>
     <br>Tomorrow there'll be more of us
     <br><br>
     
-    [MULLIGAN/LAFAYETTE/LAURENS]
+    <strong>[MULLIGAN/LAFAYETTE/LAURENS]</strong>
     <br>Telling the story of tonight
     <br><br>
     
-    [HAMILTON]
+    <strong>[HAMILTON]</strong>
     <br>They'll tell the story of tonight
     <br><br>
     
-    [LAURENS/MULLIGAN/LAFAYETTE]
+    <strong>[LAURENS/MULLIGAN/LAFAYETTE]</strong>
     <br>Raise a glass to freedom
     <br>Something they can never take away
     <br><br>
     
-    [HAMILTON]
+    <strong>[HAMILTON]</strong>
     <br>No matter what they tell you
     <br><br>
     
-    [MULLIGAN/LAFAYETTE]
+    <strong>[MULLIGAN/LAFAYETTE]</strong>
     <br>Let's have another round tonight
     <br><br>
     
-    [LAURENS]
+    <strong>[LAURENS]</strong>
     <br>Raise a glass to the four of us
     <br><br>
     
-    [HAMILTON/LAURENS/MULLIGAN/LAFAYETTE]
+    <strong>[HAMILTON/LAURENS/MULLIGAN/LAFAYETTE]</strong>
     <br>Tomorrow there'll be more of us
     <br><br>
     
-    [HAMILTON/LAURENS]
+    <strong>[HAMILTON/LAURENS]</strong>
     <br>Telling the story of tonight
     <br><br>
     
-    [MULLIGAN/LAFAYETTE]
+    <strong>[MULLIGAN/LAFAYETTE]</strong>
     <br>Let's have another round tonight
     <br><br>
     
-    [HAMILTON/LAURENS/ENSEMBLE]
+    <strong>[HAMILTON/LAURENS/ENSEMBLE]</strong>
     <br>They'll tell the story of tonight
     <br>Raise a glass to freedom
     <br>They'll tell the story of tonight
@@ -767,7 +767,7 @@ var storyOfTonight = {
     <br>They'll tell the story of tonight
     <br><br>
     
-    [FULL ENSEMBLE]
+    <strong>[FULL ENSEMBLE]</strong>
     <br>They'll tell the story of tonight
   `,
   c: `<iframe src="https://www.youtube.com/embed/GIVOjsPrnOs?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
@@ -777,7 +777,7 @@ var storyOfTonight = {
 var schuylerSisters = {
   title:"The Schuyler Sisters",
   lyrics:`
-    [BURR]
+    <strong>[BURR]</strong>
     <br>There's nothing rich folks love more
     <br>Than going downtown and slummin' it with the poor
     <br>They pull up in their carriages and gawk
@@ -789,121 +789,121 @@ var schuylerSisters = {
     <br>Sneak into the city just to watch all the guys at-
     <br><br>
     
-    [COMPANY]
+    <strong>[COMPANY]</strong>
     <br>Work, work!
     <br><br>
     
-    [ANGELICA]
+    <strong>[ANGELICA]</strong>
     <br>Angelica!
     <br><br>
     
-    [COMPANY]
+    <strong>[COMPANY]</strong>
     <br>Work, work!
     <br><br>
     
-    [ELIZA]
+    <strong>[ELIZA]</strong>
     <br>Eliza!
     <br><br>
     
-    [PEGGY]
+    <strong>[PEGGY]</strong>
     <br>And Peggy!
     <br><br>
     
-    [COMPANY]
+    <strong>[COMPANY]</strong>
     <br>Work, work!
     <br>The Schuyler sisters!
     <br><br>
     
-    [ANGELICA]
+    <strong>[ANGELICA]</strong>
     <br>Angelica!
     <br><br>
     
-    [PEGGY]
+    <strong>[PEGGY]</strong>
     <br>Peggy!
     <br><br>
     
-    [ELIZA]
+    <strong>[ELIZA]</strong>
     <br>Eliza!
     <br><br>
     
-    [COMPANY]
+    <strong>[COMPANY]</strong>
     <br>Work!
     <br><br>
     
-    [PEGGY]
+    <strong>[PEGGY]</strong>
     <br>Daddy said to be home by sundown
     <br><br>
     
-    [ANGELICA]
+    <strong>[ANGELICA]</strong>
     <br>Daddy doesn't need to know
     <br><br>
     
-    [PEGGY]
+    <strong>[PEGGY]</strong>
     <br>Daddy said not to go downtown
     <br><br>
     
-    [ELIZA]
+    <strong>[ELIZA]</strong>
     <br>Like I said, you're free to go
     <br><br>
     
-    [ANGELICA]
+    <strong>[ANGELICA]</strong>
     <br>But-look around, look around, the
     <br>Revolution's happening in New York
     <br><br>
     
-    [ELIZA/PEGGY]
+    <strong>[ELIZA/PEGGY]</strong>
     <br>New York
     <br><br>
     
-    [COMPANY]
+    <strong>[COMPANY]</strong>
     <br>Angelica
     <br><br>
     
-    [SCHUYLER SISTERS AND COMPANY]
+    <strong>[SCHUYLER SISTERS AND COMPANY]</strong>
     <br>Work!
     <br><br>
     
-    [PEGGY]
+    <strong>[PEGGY]</strong>
     <br>It's bad enough daddy wants to go to war
     <br><br>
     
-    [ELIZA]
+    <strong>[ELIZA]</strong>
     <br>People shouting in the square
     <br><br>
     
-    [PEGGY]
+    <strong>[PEGGY]</strong>
     <br>It's bad enough there'll be violence on our shore
     <br><br>
     
-    [ANGELICA]
+    <strong>[ANGELICA]</strong>
     <br>New ideas in the air
     <br><br>
     
-    [ANGELICA AND MALE ENSEMBLE]
+    <strong>[ANGELICA AND MALE ENSEMBLE]</strong>
     <br>Look around, look around-
     <br><br>
     
-    [ELIZA]
-    <br>Angelica, remind me what we're look...
+    <strong>[ELIZA]</strong>
+    <br>Angelica, remind me what we're looking for
     <br><br>
     
-    [ALL MEN]
+    <strong>[ALL MEN]</strong>
     <br>She's lookin' for me!
     <br><br>
     
-    [ANGELICA]
+    <strong>[ANGELICA]</strong>
     <br>Eliza, I'm lookin' for a mind at work
     <br>I'm lookin' for a mind at work! (Work!)
     <br>I'm lookin' for a mind at work! (Work!)
     <br>Whooaaaaa!
     <br><br>
     
-    [ELIZA/ANGELICA/PEGGY]
+    <strong>[ELIZA/ANGELICA/PEGGY]</strong>
     <br>Whooaaaaa!
     <br>Work!
     <br><br>
     
-    [BURR]
+    <strong>[BURR]</strong>
     <br>Wooh! There's nothin' like summer in the city
     <br>Someone in a rush next to someone lookin' pretty
     <br>Excuse me, miss, I know it's not funny
@@ -912,63 +912,63 @@ var schuylerSisters = {
     <br>You searchin for an urchin who can give you ideals?
     <br><br>
     
-    [ANGELICA]
+    <strong>[ANGELICA]</strong>
     <br>Burr, you disgust me
     <br><br>
     
-    [BURR]
+    <strong>[BURR]</strong>
     <br>Ah, so you've discussed me
     <br>I'm a trust fund, baby, you can trust me!
     <br><br>
     
-    [ANGELICA]
+    <strong>[ANGELICA]</strong>
     <br>I've been reading Common Sense by Thomas Paine
     <br>So men say that I'm intense or I'm insane
     <br>You want a revolution? I want a revelation
     <br>So listen to my declaration:
     <br><br>
     
-    [ELIZA/ANGELICA/PEGGY]
+    <strong>[ELIZA/ANGELICA/PEGGY]</strong>
     <br>"We hold these truths to be self-evident
     <br>That all men are created equal"
     <br><br>
     
-    [ANGELICA]
+    <strong>[ANGELICA]</strong>
     <br>And when I meet Thomas Jefferson
     <br><br>
     
-    [COMPANY]
+    <strong>[COMPANY]</strong>
     <br>Unh!
     <br><br>
     
-    [ANGELICA]
+    <strong>[ANGELICA]</strong>
     <br>I'm 'a compel him to include women in the sequel!
     <br><br>
     
-    [WOMEN]
+    <strong>[WOMEN]</strong>
     <br>Work!
     <br><br>
     
-    [ELIZA]
+    <strong>[ELIZA]</strong>
     <br>Look around, look around at how
     <br>Lucky we are to be alive right now!
     <br><br>
     
-    [ELIZA/PEGGY]
+    <strong>[ELIZA/PEGGY]</strong>
     <br>Look around, look around at how
     <br>Lucky we are to be alive right now!
     <br><br>
     
-    [ELIZA/ANGELICA/PEGGY]
+    <strong>[ELIZA/ANGELICA/PEGGY]</strong>
     <br>History is happening in Manhattan and we just happen to be
     <br>In the greatest city in the world!
     <br><br>
     
-    [SCHUYLER SISTERS AND COMPANY]
+    <strong>[SCHUYLER SISTERS AND COMPANY]</strong>
     <br>In the greatest city in the world!
     <br><br>
     
-    [ANGELICA]
+    <strong>[ANGELICA]</strong>
     <br>Cuz I've been reading Common Sense by Thomas Paine
     <br>So men say that I'm intense or I'm insane
     <br>You want a revolution?
@@ -976,57 +976,57 @@ var schuylerSisters = {
     <br>So listen to my declaration:
     <br><br>
     
-    [ANGELICA/ELIZA/PEGGY]
+    <strong>[ANGELICA/ELIZA/PEGGY]</strong>
     <br>We hold these truths to be self evident that all men are created equal
     <br>Whoo!
     <br><br>
     
-    [FULL COMPANY]
+    <strong>[FULL COMPANY]</strong>
     <br>Look around, look around at how lucky we are to be alive right now!
     <br>History is happening in Manhattan and we just happen to be
     <br><br>
     
-    [ALL WOMEN]
+    <strong>[ALL WOMEN]</strong>
     <br>In the greatest city in the world
     <br><br>
     
-    [ALL MEN]
+    <strong>[ALL MEN]</strong>
     <br>In the greatest city-
     <br><br>
     
-    [COMPANY]
+    <strong>[COMPANY]</strong>
     <br>In the greatest city in the world!
     <br><br>
     
-    [COMPANY]
+    <strong>[COMPANY]</strong>
     <br>Work, work!
     <br><br>
     
-    [ANGELICA]
+    <strong>[ANGELICA]</strong>
     <br>Angelica!
     <br><br>
     
-    [COMPANY]
+    <strong>[COMPANY]</strong>
     <br>Work, work!
     <br><br>
     
-    [ELIZA]
+    <strong>[ELIZA]</strong>
     <br>Eliza!
     <br><br>
     
-    [PEGGY]
+    <strong>[PEGGY]</strong>
     <br>And Peggy!
     <br><br>
     
-    [COMPANY]
+    <strong>[COMPANY]</strong>
     <br>Work, work!
     <br><br>
     
-    [ANGELICA/ELIZA/PEGGY]
+    <strong>[ANGELICA/ELIZA/PEGGY]</strong>
     <br>The Schuyler sisters!
     <br><br>
     
-    [COMPANY]
+    <strong>[COMPANY]</strong>
     <br>Work, work!
     <br><br>
     
@@ -1035,7 +1035,7 @@ var schuylerSisters = {
     <br>Hey!
     <br><br>
     
-    [ANGELICA]
+    <strong>[ANGELICA]</strong>
     <br>Whoa!
     <br><br>
     
@@ -1043,7 +1043,7 @@ var schuylerSisters = {
     <br>Greatest city in the world
     <br><br>
     
-    [COMPANY]
+    <strong>[COMPANY]</strong>
     <br>In the greatest city in the world!
   `,
   e: `<iframe src="https://www.youtube.com/embed/xZdrzOdd8Kw?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
@@ -1052,17 +1052,142 @@ var schuylerSisters = {
 };
 
 var farmerRefuted = {
-  title:"",
-  lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
-  c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
-  k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
+  title:"Farmer Refuted",
+  lyrics:`
+    <strong>[SEABURY]</strong>
+    <br>Hear ye, hear ye! My name is Samuel Seabury
+    <br>And I present "Free Thoughts on the
+    <br>Proceedings of the Continental Congress!"
+    <br><br>
+    
+    Heed not the rabble who scream revolution
+    <br>They have not your interests at heart
+    <br><br>
+    
+    <strong>[MULLIGAN]</strong>
+    <br>Oh my God. Tear this dude apart
+    <br><br>
+    
+    <strong>[SEABURY]</strong>
+    <br>Chaos and bloodshed are not a solution
+    <br>Don't let them lead you astray
+    <br>This Congress does not speak for me
+    <br><br>
+    
+    <strong>[BURR]</strong>
+    <br>Let him be
+    <br><br>
+    
+    <strong>[SEABURY]</strong>
+    <br>They're playing a dangerous game
+    <br>I pray the king shows you his mercy
+    <br>For shame, for shame...
+    <br><br>
+    <strong>[HAMILTON]</strong>
+    <br>Yo!
+    <br><br>
+    
+    <strong>[HAMILTON] He'd have you all unravel at the sound of</strong>
+    [SEABURY]Heed not the rabble who
+    <br><strong>screams but the Revolution is comin', The</strong>
+    scream Revolution, they
+    <br><strong>have-nots are gonna</strong>
+    Have not your
+    <br><strong>Win this</strong>
+    Interests
+    <br><strong>It's hard To listen to you with a straight face</strong>
+    At heart
+    <br><br>
+    
+    <strong>Chaos and bloodshed already</strong>
+    Chaos and bloodshed are
+    <br><strong>haunt us, honestly you shouldn't even</strong>
+    not a solution
+    <br><strong>talk.  And what about Boston? Look at the cost, n' all that we've lost n' you talk</strong>
+    Don't Let them lead you astray
+    <br><strong>About Congress?!</strong>
+    This Congress does not speak for me
+    <br><br>
+    
+    <strong>My dog speaks more eloquently
+    <br><br>
+    Than thee</strong>
+    They're playing a dangerous
+    <strong>But strangely, your mange is</strong>
+    game
+    <strong>The same</strong>
+    I pray the king shows you his mercy
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>Is he in Jersey?
+    <br><br>
+    
+    <strong>[SEABURY]</strong>
+    <br>For Shame!
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>For the revolution!
+    <br><br>
+    
+    <strong>[SEABURY]</strong>
+    <br>For Shame!
+    <br><br>
+    
+    <strong>[COMPANY]</strong>
+    <br>For the revolution!
+    <br><br>
+    
+    <strong>[SEABURY]</strong>
+    <br>Heed—
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>If you repeat yourself again I'm gonna-
+    <br><br>
+    
+    <strong>[SEABURY/HAMILTON]</strong>
+    <br>Scream—
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>Honestly, look at me, please don't read!
+    <br><br>
+    
+    <strong>[SEABURY]</strong>
+    <br>Not your interests—
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>Don't modulate the key then not debate with me!
+    <br>Why should a tiny island across the sea regulate the price of tea?
+    <br><br>
+    
+    <strong>[BURR]</strong>
+    <br>Alexander, please!
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>Burr, I'd rather be divisive than indecisive, drop the niceties
+    <br><br>
+    
+    <strong>[ENSEMBLE]</strong>
+    <br>Silence! A message from the King!
+    <br>A message from the King!
+    <br><br>
+    
+    <strong>[FULL COMPANY]</strong>
+    <br>A message from the King!
+  `,
+  e: `<iframe src="https://www.youtube.com/embed/S6GmhYKfAZU?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  k: `<iframe src="https://www.youtube.com/embed/DznrwW_1Rv4?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var youllBeBack= {
   title:"",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  e: `<iframe src="https://www.youtube.com/embed/fdxLohjwhoQ?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
