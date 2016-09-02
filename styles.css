@@ -176,11 +176,11 @@ nav {
   }
   
     .secondThird {
-      margin-left:calc(200% / 3);
+      margin-left:calc(100% / 3);
     }
 
     .thirdThird {
-      margin-left:calc(100% / 3);
+      margin-left:calc(200% / 3);
     }
     
     .firstHalf {
@@ -204,7 +204,7 @@ nav {
   iframe {
     position:fixed;
     height:200px;
-    width:364px;
+    width:200px;
     right:16px;
   }
   
@@ -220,7 +220,16 @@ nav {
     overflow-y:scroll;
   }
   
-  .2Columns {
-    width:calc((100vw - 460px) / 2);
-    display:inline-block;
-  }
+    #thumbnail {
+      position:fixed;
+      height:200px;
+      width:200px;
+      right:16px;
+      display:block;
+      z-index:48;
+      top:96px;
+    }
+    
+      #thumbnail:hover iframe:hover + #thumbnail{
+        top:100vh;
+      }

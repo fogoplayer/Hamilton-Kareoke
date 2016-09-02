@@ -1,6 +1,3 @@
-//" " " ' ' …
-
-//Paste this at the end of URLs: ?autoplay=1&controls=0&showinfo=0&rel=0
 var alexanderHamilton = {
   title: "Alexander Hamilton",
   lyrics:`
@@ -71,6 +68,7 @@ var alexanderHamilton = {
     
     <strong>[WASHINGTON]</strong>
     <br>He started retreatin' and readin' every treatise on the shelf
+    <br><br>
     
     <strong>[BURR]</strong>
     <br>There would have been nothin' left to do
@@ -170,7 +168,7 @@ var alexanderHamilton = {
     <br><br>
     
     <strong>[BURR]</strong>
-    <br>And me? I'm the dang fool that shot him
+    <br>And me? I'm the **** fool that shot him
     <br><br>
     
     <strong>[COMPANY]</strong>
@@ -215,7 +213,7 @@ var aaronBurrSir = {
     <br><br>
     
     <strong>[HAMILTON]</strong>
-    <br>Sir...
+    <br>Sir,
     <br>I heard your name at Princeton. I was seeking an accelerated course of study when I got sort of out of sorts with a buddy of yours. I may have punched him. It's a blur, sir. He handles the financials?
     <br><br>
     
@@ -235,7 +233,7 @@ var aaronBurrSir = {
     
     <strong>[HAMILTON]</strong>
     <br>You're an orphan. Of course! I'm an orphan
-    <br>Gosh, I wish there was a war!
+    <br>***, I wish there was a war!
     <br>Then we could prove that we're worth more
     <br>Than anyone bargained for...
     <br><br>
@@ -332,7 +330,7 @@ var aaronBurrSir = {
     <br><br>
     
     <strong>[LAURENS]</strong>
-    <br>No more sex, pour me another brew, son!
+    <br>No more ***, pour me another brew, son!
     <br>Let's raise a couple more...
     <br><br>
     
@@ -398,15 +396,21 @@ var myShot = {
     <br>Hey yo, I'm just like my country
     <br>I'm young, scrappy and hungry
     <br>And I'm not throwing away my shot!
+    <br><br>
+    
     <br>I'm 'a get a scholarship to King's College
     <br>I prob'ly shouldn't brag, but dag, I amaze and astonish
     <br>The problem is I got a lot of brains but no polish
     <br>I gotta holler just to be heard
     <br>With every word, I drop knowledge!
+    <br><br>
+    
     <br>I'm a diamond in the rough, a shiny piece of coal
     <br>Tryin' to reach my goal. My power of speech: unimpeachable
     <br>Only nineteen but my mind is older
     <br>These New York City streets get colder, I shoulder
+    <br><br>
+    
     <br>Ev'ry burden, ev'ry disadvantage
     <br>I have learned to manage, I don't have a gun to brandish
     <br>I walk these streets famished
@@ -422,7 +426,7 @@ var myShot = {
     
     <strong>[HAMILTON]</strong>
     <br>A colony that runs independently
-    <br>Meanwhile, Britain keeps sittin' on us endlessly
+    <br>Meanwhile, Britain keeps ******** on us endlessly
     <br>Essentially, they tax us relentlessly
     <br>Then King George turns around, runs a spending spree
     <br>He ain't ever gonna set his descendants free
@@ -441,10 +445,8 @@ var myShot = {
     <br><br>
     
     <strong>[HAMILTON]</strong>
-    <br>And I am not throwing away
-    <br>My shot
-    <br>I am not throwing away
-    <br>My shot
+    <br>And I am not throwing away my shot
+    <br>I am not throwing away my shot
     <br>Hey yo, I'm just like my country
     <br>I'm young, scrappy and hungry
     <br>And I'm not throwing away my shot
@@ -481,6 +483,7 @@ var myShot = {
     
     <strong>[HAMILTON / LAFAYETTE / MULLIGAN / LAURENS]</strong>
     <br>Shot!
+    <br><br>
     
     <strong>[LAURENS]</strong>
     <br>But we'll never be truly free
@@ -492,6 +495,7 @@ var myShot = {
     
     <strong>[HAMILTON / LAFAYETTE / MULLIGAN / LAURENS]</strong>
     <br>Shot!
+    <br><br>
     
     <strong>[BURR]</strong>
     <br>Geniuses, lower your voices
@@ -511,9 +515,9 @@ var myShot = {
     <br>Poppin' a squat on conventional wisdom, like it or not
     <br>A bunch of revolutionary manumission abolitionists?
     <br>Give me a position, show me where the ammunition is!
-    <br><br>
+    <br>
     
-    Oh, am I talkin' too loud?
+    <br>Oh, am I talkin' too loud?
     <br>Sometimes I get over excited, shoot off at the mouth
     <br>I never had a group of friends before
     <br>I promise that I'll make y'all proud
@@ -521,6 +525,7 @@ var myShot = {
     
     <strong>[LAURENS]</strong>
     <br>Let's get this guy in front of a crowd
+    <br><br>
     
     <strong>[HAMILTON/LAURENS/LAFAYETTE/MULLIGAN/ENSEMBLE]</strong>
     <br>I am not throwing away my shot
@@ -528,8 +533,9 @@ var myShot = {
     <br>Hey yo, I'm just like my country
     <br>I'm young, scrappy and hungry
     <br>And I'm not throwing away my shot
-    <br><br>
-    I am not throwing away my shot
+    <br>
+    
+    <br>I am not throwing away my shot
     <br>I am not throwing away my shot
     <br>Hey yo, I'm just like my country
     <br>I'm young, scrappy and hungry
@@ -543,15 +549,14 @@ var myShot = {
     <br>Whoa, wooh, whoa!
     <br>Ay, let 'em hear ya!
     <br>Let's go!
-    <br><br>
+    <br>
     
-    I said shout it to the rooftops!
+    <br>I said shout it to the rooftops!
     <br>Said, to the rooftops!
     <br>Come on!
     <br>Come on, let's go!
-    <br><br>
+    <br>
     
-    <strong>[LAURENS]</strong>
     <br>Rise up!
     <br>When you're living on your knees, you rise up
     <br>Tell your brother that he's gotta rise up
@@ -563,9 +568,9 @@ var myShot = {
     <br>When are these colonies gonna rise up?
     <br>When are these colonies gonna rise up?
     <br>When are these colonies gonna rise up?
-    <br><br>
+    <br>
     
-    Rise up!
+    <br>Rise up!
     <br><br>
     
     <strong>[HAMILTON]</strong>
@@ -578,9 +583,9 @@ var myShot = {
     <br>Where I come from some get half as many
     <br>Ask anybody why we livin' fast and we laugh, reach for a flask
     <br>We have to make this moment last, that's plenty
-    <br><br>
+    <br>
     
-    Scratch that
+    <br>Scratch that
     <br>This is not a moment, it's the movement
     <br>Where all the hungriest brothers with
     <br>Something to prove went?
@@ -591,7 +596,7 @@ var myShot = {
     <br>Or will the blood we shed begin an endless
     <br>Cycle of vengeance and death with no defendants?
     <br>I know the action in the street is excitin'
-    <br>But Jesus, between all the bleedin' 'n fightin'
+    <br>But *****, between all the bleedin' 'n fightin'
     <br>I've been readin' 'n writin'
     <br>We need to handle our financial situation
     <br>Are we a nation of states? What's the state of our nation?
@@ -1140,7 +1145,7 @@ var farmerRefuted = {
     <br><br>
     
     <strong>[SEABURY]</strong>
-    <br>Heed—
+    <br>Heed-
     <br><br>
     
     <strong>[HAMILTON]</strong>
@@ -1148,7 +1153,7 @@ var farmerRefuted = {
     <br><br>
     
     <strong>[SEABURY/HAMILTON]</strong>
-    <br>Scream—
+    <br>Scream-
     <br><br>
     
     <strong>[HAMILTON]</strong>
@@ -1156,7 +1161,7 @@ var farmerRefuted = {
     <br><br>
     
     <strong>[SEABURY]</strong>
-    <br>Not your interests—
+    <br>Not your interests-
     <br><br>
     
     <strong>[HAMILTON]</strong>
@@ -1185,19 +1190,576 @@ var farmerRefuted = {
 };
 
 var youllBeBack= {
-  title:"",
-  lyrics:``,
+  title:"You'll Be Back",
+  lyrics:`
+    <strong>[KING GEORGE]</strong>
+    <br>You say
+    <br>The price of my love's not a price that you're willing to pay
+    <br>You cry
+    <br>In your tea which you hurl in the sea when you see me go by
+    <br>Why so sad?
+    <br>Remember we made an arrangement when you went away
+    <br>Now you're making me mad
+    <br>Remember, despite our estrangement, I'm your man
+    <br>
+    
+    <br>You'll be back, soon you'll see
+    <br>You'll remember you belong to me
+    <br>You'll be back, time will tell
+    <br>You'll remember that I served you well
+    <br>Oceans rise, empires fall
+    <br>We have seen each other through it all
+    <br>And when push comes to shove
+    <br>I will send a fully armed battalion to remind you of my love!
+    <br>
+    
+    <br>Da da da dat da dat da da da da ya da
+    <br>Da da dat dat da ya da!
+    <br>Da da da dat da dat da da da da ya da
+    <br>Da da dat dat da...
+    <br>
+    
+    <br>You say our love is draining and you can't go on
+    <br>You'll be the one complaining when I am gone...
+    <br>And no, don't change the subject
+    <br>Cuz you're my favorite subject
+    <br>My sweet, submissive subject
+    <br>My loyal, royal subject
+    <br>Forever and ever and ever and ever and ever...
+    <br>
+    
+    <br>You'll be back like before
+    <br>I will fight the fight and win the war
+    <br>For your love, for your praise
+    <br>And I'll love you till my dying days
+    <br>When you're gone, I'll go mad
+    <br>So don't throw away this thing we had
+    <br>Cuz when push comes to shove
+    <br>I will kill your friends and family to remind you of my love
+    <br>
+    
+    <br>Da da da dat da dat da da da da ya da
+    <br>Da da dat dat da ya da!
+    <br>Da da da dat da dat da da da da ya da
+    <br>Da da dat-
+    <br>Everybody!
+    <br><br>
+    
+    <strong>[FULL ENSEMBLE]</strong>
+    <br>Da da da dat da dat da da da da ya da
+    <br>Da da dat dat da ya da!
+    <br>Da da da dat da dat da da da da ya da da da da
+    <br>Dat dat da ya da!
+  `,
   e: `<iframe src="https://www.youtube.com/embed/fdxLohjwhoQ?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
-  c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
-  k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
+  k: `<iframe src="https://www.youtube.com/embed/15djYCh9l7Q?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var rightHandMan = {
-  title:"",
-  lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
-  c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
-  k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
+  title:"Right Hand Man",
+  lyrics:`
+    <strong>[COMPANY]</strong>
+    <br>British Admiral Howe's got troops on the water
+    <br>Thirty-two thousand troops in New York harbor
+    <br><br>
+    
+    <strong>[ENSEMBLE 1]</strong>
+    <br>Thirty-two thousand troops in New York harbor
+    <br><br>
+    
+    <strong>[ENSEMBLE 2]</strong>
+    <br>Thirty-two thousand troops in New York harbor
+    <br><br>
+    
+    <strong>[ENSEMBLE 1]</strong>
+    <br>When
+    <br><br>
+    
+    <strong>[ENSEMBLE]</strong>
+    <br>They surround our troops!
+    <br>They surround our troops!
+    <br>When they surround our troops!
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>As a kid in the Caribbean I wished for a war
+    <br>I knew that I was poor
+    <br>I knew it was the only way to-
+    <br><br>
+    
+    <strong>[HAMILTON / BURR / MULLIGAN / LAURENS / LAFAYETTE]</strong>
+    <br>Rise up!
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>If they tell my story
+    <br>I am either gonna die on the battlefield in glory or-
+    
+    <strong>[HAMILTON / BURR / MULLIGAN / LAURENS / LAFAYETTE]</strong>
+    <br>Rise up!
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>I will fight for this land
+    <br>But there's only one man
+    <br>Who can give us a command so we can-
+    <br><br>
+    
+    <strong>[HAMILTON / BURR / MULLIGAN / LAURENS / LAFAYETTE]</strong>
+    <br>Rise up!
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>Understand? It's the only way to-
+    <br><br>
+    
+    <strong>[HAMILTON / BURR / MULLIGAN / LAURENS / LAFAYETTE]</strong>
+    <br>Rise up! Rise up!
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>Here he comes!
+    <br><br>
+    
+    <strong>[ENSEMBLE]</strong>
+    <br>Here comes the General!
+    <br><br>
+    
+    <strong>[BURR]</strong>
+    <br>Ladies and gentlemen!
+    <br><br>
+    
+    <strong>[ENSEMBLE]</strong>
+    <br>Here comes the General!
+    <br><br>
+    
+    <strong>[BURR]</strong>
+    <br>The moment you've been waiting for!
+    <br><br>
+    
+    <strong>[ENSEMBLE]</strong>
+    <br>Here comes the General!
+    <br><br>
+    
+    <strong>[BURR]</strong>
+    <br>The pride of Mount Vernon!
+    <br><br>
+    
+    <strong>[ENSEMBLE]</strong>
+    <br>Here comes the General!
+    <br><br>
+    
+    <strong>[BURR]</strong>
+    <br>George Washington!
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>We are outgunned
+    <br><br>
+    
+    <strong>[ENSEMBLE]</strong>
+    <br>What?
+    <br><br>
+    
+    <strong>[WASHIGNTON]</strong>
+    <br>Outmanned
+    <br><br>
+    
+    <strong>[ENSEMBLE]</strong>
+    <br>What?
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>Outnumbered, outplanned
+    <br><br>
+    
+    <strong>[ENSEMBLE]</strong>
+    <br>Buck, buck, buck, buck, buck!
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>We gotta make an all out stand
+    <br>Ayo, I'm gonna need a right-hand man.
+    <br><br>
+    
+    <strong>[ENSEMBLE]</strong>
+    <br>Buck, buck, buck, buck, buck!
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>Check it-
+    <br>Can I be real a second?
+    <br>For just a millisecond?
+    <br>Let down my guard and tell the people how I feel a second?
+    <br>Now I'm the model of a modern major general
+    <br>The venerated Virginian veteran whose men are all
+    <br>Lining up, to put me up on a pedestal
+    <br>Writin' letters to relatives
+    <br>Embellishin' my elegance and eloquence
+    <br>But the elephant is in the room
+    <br>The truth is in ya face when ya hear the British cannons go...
+    <br><br>
+    
+    <strong>[ENSEMBLE]</strong>
+    <br>Boom!
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>Any hope of success is fleeting
+    <br>How can I keep leading when the people I'm
+    <br>Leading keep retreating?
+    <br>We put a stop to the bleeding as the British take Brooklyn
+    <br>Knight takes rook, but look
+    <br><br>
+    
+    <br>We are outgunned
+    <br><br>
+    
+    <strong>[ENSEMBLE]</strong>
+    <br>What?
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>Outmanned
+    <br><br>
+    
+    <strong>[ENSEMBLE]</strong>
+    <br>What?
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>Outnumbered, outplanned
+    <br><br>
+    
+    <strong>[ENSEMBLE]</strong>
+    <br>Buck, buck, buck, buck, buck!
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>We gotta make an all out stand
+    <br>Ayo, I'm gonna need a right-hand man.
+    <br><br>
+    
+    <strong>[ENSEMBLE]</strong>
+    <br>Buck, buck, buck, buck, buck!
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>Incoming!
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>They're battering down the Battery check the damages
+    <br><br>
+    
+    <strong>[MULLIGAN]</strong>
+    <br>Rah!
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>We gotta stop 'em and rob 'em of their advantages
+    <br><br>
+    
+    <strong>[MULLIGAN]</strong>
+    <br>Rah!
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>Let's take a stand with the stamina God has granted us
+    <br>Hamilton won't abandon ship
+    <br>Yo, let's steal their cannons-
+    <br><br>
+    
+    <strong>[MULLIGAN]</strong>
+    <br>Sha-
+    
+    <strong>[COMPANY]</strong>
+    <br>Boom!	
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>Goes the cannon, watch the blood and the **** spray and...
+    <br><br>
+    
+    <strong>[COMPANY]</strong>
+    <br>Boom!
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>Goes the cannon, we're abandonin' Kips Bay and...
+    <br><br>
+    
+    <strong>[COMPANY]</strong>
+    <br>Boom!
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>There's another ship and...
+    <br><br>
+    
+    <strong>[COMPANY]</strong>
+    <br>Boom!
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>We just lost the southern tip and...
+    <br><br>
+    
+    <strong>[COMPANY]</strong>
+    <br>Boom!
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>We gotta run to Harlem quick, we can't afford another slip
+    <br>Guns and horses giddyup
+    <br>I decide to divvy up
+    <br>My forces, they're skittish as the British cut the city up
+    <br>This close to giving up, facing mad scrutiny
+    <br>I scream in the face of this mass mutiny:
+    <br><br>
+    
+    <br>Are these the men with which I am to defend America?
+    <br>We ride at midnight, Manhattan in the distance
+    <br>I cannot be everywhere at once, people
+    <br>I'm in dire need of assistance...
+    <br><br>
+    
+    <strong>[BURR]</strong>
+    <br>Your excellency, sir!
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>Who are you?
+    <br><br>
+    
+    <strong>[BURR]</strong>
+    <br>Aaron Burr, Sir?
+    <br>Permission to state my case?
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>As you were
+    <br><br>
+    
+    <strong>[BURR]</strong>
+    <br>Sir
+    <br>I was a captain under General Montgomery
+    <br>Until he caught a bullet in the neck in Quebec
+    <br>And well, in summary
+    <br>I think that I could be of some assistance
+    <br>I admire how you keep firing on the British from a distance
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>Huh
+    <br><br>
+    
+    <strong>[BURR]</strong>
+    <br>I have some questions, a couple of suggestions on how to fight instead of fleeing west
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>Yes?
+    <br><br>
+    
+    <strong>[BURR]</strong>
+    <br>Well-
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>Your excellency, you wanted to see me?
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>Hamilton, come in, have you met Burr?
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>Yes, sir
+    <br><br>
+    
+    <strong>[HAMILTON AND BURR]</strong>
+    <br>We keep meeting
+    <br><br>
+    
+    <strong>[BURR]</strong>
+    <br>As I was saying, sir, I look forward to seeing your strategy play out
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>Burr?
+    <br><br>
+    
+    <strong>[BURR]</strong>
+    <br>Sir?
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>Close the door on your way out
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>Have I done something wrong, sir?
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>On the contrary
+    <br>I called you here because our odds are beyond scary
+    <br>Your reputation precedes you, but I have to laugh
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>Sir?
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>Hamilton, how come no one can get you on their staff?
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>Sir!
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>Don't get me wrong, you're a young man of great renown
+    <br>I know you stole British cannons when we were still downtown
+    <br>Nathaniel Green and Henry Knox wanted to hire you...
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>To be their Secretary? I don't think so
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>Why're you upset?
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>I'm not-
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>It's alright, you want to fight, you've got a hunger
+    <br>I was just like you when I was younger
+    <br>Head full of fantasies of dyin' like a martyr?
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>Yes
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>Dying is easy, young man. Living is harder
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>Why are you telling me this?
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>I'm being honest
+    <br>I'm working with a third of what our Congress has promised
+    <br>We are a powder keg about to explode
+    <br>I need someone like you to lighten the load. So?
+    <br><br>
+    
+    <strong>[COMPANY (EXCEPT HAMILTON)]</strong>
+    <br>I am not throwin' away my shot!
+    <br>I am not throwin' away my shot!
+    <br>Ayo, I'm just like my country, I'm young
+    <br>Scrappy and hungry!
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>I am not throwing away my shot!
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>Son
+    <br><br>
+    
+    <strong>[WASHINGON AND COMPANY]</strong>
+    <br>We are outgunned, outmanned!
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>You need all the help you can get
+    <br>I have some friends. Laurens, Mulligan
+    <br>Marquis de Lafayette, okay, what else?
+    <br><br>
+    
+    <strong>[WASHINGTON AND COMPANY]</strong>
+    <br>Outnumbered, outplanned!
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>We'll need some spies on the inside
+    <br>Some King's men who might let some things slide
+    <br><br>
+    
+    <strong>[COMPANY]</strong>
+    <br>Boom!
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>I'll write to Congress and tell 'em we need supplies, you rally the guys, master the element of surprise
+    <br>I'll rise above my station, organize your information, 'til we rise to the occasion of our new nation. Sir!
+    <br><br>
+    
+    <strong>[ENSEMBLE]</strong>
+    <br>Here comes the General!
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>Rise up!
+    <br><br>
+    
+    <strong>[LAURENS / LAFAYETTE / MULLIGAN]</strong>
+    <br>What?
+    <br><br>
+    
+    <strong>[ENSEMBLE]</strong>
+    <br>Here comes the General!
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>Rise up!
+    <br><br>
+    
+    <strong>[LAURENS / LAFAYETTE / MULLIGAN]</strong>
+    <br>What?
+    <br><br>
+    
+    <strong>[ENSEMBLE]</strong>
+    <br>Here comes the General!
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>Rise up!
+    <br><br>
+    
+    <strong>[LAURENS / LAFAYETTE / MULLIGAN]</strong>
+    <br>What?
+    <br><br>
+    
+    <strong>[ENSEMBLE]</strong>
+    <br>Here comes the General!
+    <br><br>
+    
+    <strong>[LAURENS / LAFAYETTE / MULLIGAN]</strong>
+    <br>What?
+    <br><br>
+    
+    <strong>[WASHINGTON]</strong>
+    <br>And his right-hand man!
+    <br><br>
+    
+    <strong>[ENSEMBLE]</strong>
+    <br>Boom!
+  `,
+  e: `<iframe src="https://www.youtube.com/embed/HSZwEaYHSpc?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  c: `<iframe src="https://www.youtube.com/embed/_LPSRwnPkUM?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  //k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var aWintersBall = {
