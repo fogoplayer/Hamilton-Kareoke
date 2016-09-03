@@ -183,7 +183,7 @@ var alexanderHamilton = {
     <br>Alexander Hamilton!
   `,
   
-  e: `<iframe src="https://www.youtube.com/embed/yIl1OIGzuDg?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/yIl1OIGzuDg?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/ohtcqqVZGUY?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/vZPDnhTNPeM?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
 };
@@ -382,7 +382,7 @@ var aaronBurrSir = {
     <strong>[MULLIGAN/LAFAYETTE/LAURENS]</strong>
     <br>Ooh, who is this kid? What's he gonna do?
   `,
-  e: `<iframe src="https://www.youtube.com/embed/sEH9I_oJfqY?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/sEH9I_oJfqY?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/htydA8jSsNY?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   //k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
@@ -666,7 +666,7 @@ var myShot = {
     <br>Not throwing away my
     <br>Shot!
   `,
-  e: `<iframe src="https://www.youtube.com/embed/VK4Wk_8PbcI?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/VK4Wk_8PbcI?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/euBUrVu6m2A?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/omsdlpCsP5A?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
@@ -1051,7 +1051,7 @@ var schuylerSisters = {
     <strong>[COMPANY]</strong>
     <br>In the greatest city in the world!
   `,
-  e: `<iframe src="https://www.youtube.com/embed/xZdrzOdd8Kw?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/xZdrzOdd8Kw?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/8jn3BuFiV8o?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
@@ -1185,7 +1185,7 @@ var farmerRefuted = {
     <strong>[FULL COMPANY]</strong>
     <br>A message from the King!
   `,
-  e: `<iframe src="https://www.youtube.com/embed/S6GmhYKfAZU?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/S6GmhYKfAZU?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/DznrwW_1Rv4?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
@@ -1251,7 +1251,7 @@ var youllBeBack= {
     <br>Da da da dat da dat da da da da ya da da da da
     <br>Dat dat da ya da!
   `,
-  e: `<iframe src="https://www.youtube.com/embed/fdxLohjwhoQ?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/fdxLohjwhoQ?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/15djYCh9l7Q?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
@@ -1757,303 +1757,310 @@ var rightHandMan = {
     <strong>[ENSEMBLE]</strong>
     <br>Boom!
   `,
-  e: `<iframe src="https://www.youtube.com/embed/HSZwEaYHSpc?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/HSZwEaYHSpc?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/_LPSRwnPkUM?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   //k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var aWintersBall = {
-  title:"",
+  title:"A Winter's Ball",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
-  c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
-  k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
+  o: `<iframe src="https://www.youtube.com/embed/ksff5uvSViU?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  k: `<iframe src="https://www.youtube.com/embed/WiWi_CFX0NY?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var helpless = {
-  title:"",
+  title:"Helpless",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/30N4rPZuUMc?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var satisfied = {
-  title:"",
+  title:"Satisfied",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/f0EqxnWxlvY?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
-var theStoryOfTonightReprise = {
-  title:"",
+var storyOfTonightReprise = {
+  title:"The Story Of Tonight (Reprise)",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/N_jRRbuVD1w?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var waitForIt = {
-  title:"",
+  title:"Wait For It",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/ReTP6x_sDiM?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var stayAlive = {
-  title:"",
+  title:"Stay Alive",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/YX6-9OnHRCc?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var tenDuelCommandments = {
-  title:"",
+  title:"Ten Duel Commandments",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/dS79uxNFoHw?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var meetMeInside = {
-  title:"",
+  title:"Meet Me Inside",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/pn3Nmpk3Px0?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var thatWouldBeEnough = {
-  title:"",
+  title:"That Would Be Enough",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/-xDlEXO4UJs?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var gunsAndShips = {
-  title:"",
+  title:"Guns and Ships",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/Ovje92D742s?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var historyHasItsEyesOnYou = {
-  title:"",
+  title:"History Has Its Eyes On You",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/Ovje92D742s?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var yorktown = {
-  title:"",
+  title:"Yorktown",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/NpsuEcKW8ZE?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var whatComesNext = {
-  title:"",
+  title:"What Comes Next",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/pLaCCgqJ07Y?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
+};
+
+var dearTheodosia = {
+  title:"Dear Theodosia",
+  lyrics:``,
+  o: `<iframe src="https://www.youtube.com/embed/vjMN6zSVFQg?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var nonStop = {
-  title:"",
+  title:"Non-Stop",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/8aefuWGmKTY?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var whatdIMiss = {
-  title:"",
+  title:"What'd I Miss",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/6FPEwPpSyVE?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var cabinetBattle1 = {
-  title:"",
+  title:"Cabinet Battle #1",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/mBmTdJ4XTfs?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var takeABreak = {
-  title:"",
+  title:"Take a Break",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/RZCkko_t_rs?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var sayNoToThis = {
-  title:"",
+  title:"Say No To This",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/3tMf9sx7OUA?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var theRoomWhereItHappens = {
-  title:"",
+  title:"The Room Where It Happens",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/IWdBOsk8D7A?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var schuylerDefeated = {
-  title:"",
+  title:"Schuyler Defeated",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/dPoPpTZ_RRE?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var cabinetBattle2 = {
-  title:"",
+  title:"Cabinet Battle #2",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/B0HZUatZtXI?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var washingtonOnYourSide = {
-  title:"",
+  title:"Washington On Your Side",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/7NSFesJe1ok?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var oneLastTime = {
-  title:"",
+  title:"One Last Time",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/YRHOcskOudg?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var iKnowHim = {
-  title:"",
+  title:" I Know Him",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/wJzSAZjN3Bk?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var theAdamsAdministraton = {
-  title:"",
+  title:"The Adams Administration",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/hbY6UQCk0SM?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var weKnow = {
-  title:"",
+  title:"We Know",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/MvmDAb_TVck?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var hurricane = {
-  title:"",
+  title:"Hurricane",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/lv1oR_k5f3w?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var reynoldsPamphlet = {
-  title:"",
+  title:"Reynolds Pamphlet",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/kOSCOw50kos?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var burn = {
-  title:"",
+  title:"Burn",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/1CFOuGqBSEE?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var blowUsAllAway = {
-  title:"",
+  title:"Blow Us All Away",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/YdIh1uSkVhc?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var stayAliveReprise = {
-  title:"",
+  title:"Stay Alive Reprise",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/FKoZ8jopBdo?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var itsQiuetUptown = {
-  title:"",
+  title:"It's Quiet Uptown",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/rrsmUzqweBI?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var electionOf1800 = {
-  title:"",
+  title:"Election of 1800",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/AUOfpIPztKM?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var yourObedientServant = {
-  title:"",
+  title:"Your Obedient Servant",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/z1NmdB_kXO8?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var bestOfWivesAndBestOfWomen = {
-  title:"",
+  title:"Best of Wives and Best of Women",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/AcP291GQnFk?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var theWorldWasWideEnough = {
-  title:"",
+  title:"The World Was Wide Enough",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/o51rzRr1GJY?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
 var whoLivesWhoDiesWhoTellsYourStory = {
-  title:"",
+  title:"Who Lives, Who Dies, Who Tells Your Story",
   lyrics:``,
-  e: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
+  o: `<iframe src="https://www.youtube.com/embed/Jyg3Lo_-Ep8?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
