@@ -230,6 +230,10 @@ nav {
       top:96px;
     }
     
-      #thumbnail:hover iframe:hover + #thumbnail{
-        top:100vh;
+      #thumbnail:hover {
+        visibility:hidden;
+      }
+      
+      iframe:hover + #thumbnail:hover + #thumbnail{
+        visibility:hidden;
       }

@@ -42,7 +42,7 @@ var toggleLyrics = function(name, video) {
     lyrics.innerHTML = "";
     modal.style.display = "none";
   }else{
-    lyrics.innerHTML = video + name.lyrics/* + '<div id = "thumbnail"><img src = "images/hamilton.jpg"/></div>'*/;
+    lyrics.innerHTML = video + '<div id = "thumbnail"><img src = "images/hamilton.jpg"/></div>' + name.lyrics;
     modalTitle.innerHTML = name.title;
     modal.style.display = "block";
   }
