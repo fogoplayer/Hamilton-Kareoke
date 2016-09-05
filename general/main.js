@@ -5,6 +5,7 @@ var act2Wrapper = document.getElementById("act2Wrapper");
 var modal = document.getElementById("modal");
 var modalTitle = document.getElementById("modalTitle");
 var lyrics = document.getElementById("lyrics");
+var hash = window.location.hash;
 
 var toggleNav = function(){
   if (nav.className === "closed") {
@@ -40,10 +41,13 @@ var toggleLyrics = function(name, video) {
   console.log('name = ' + name + " video = " + video);
   if (modal.style.display === "block") {
     lyrics.innerHTML = "";
+    document.location.hash = "";
     modal.style.display = "none";
   }else{
-    lyrics.innerHTML = video + '<div id = "thumbnail"><img src = "images/hamilton.jpg"/></div>' + name.lyrics;
-    modalTitle.innerHTML = name.title;
+    console.log(video);
+    lyrics.innerHTML = window[name][video] + window[name].lyrics;
+    modalTitle.innerHTML = window[name].title;
+    document.location.hash = "#" + name + video;
     modal.style.display = "block";
   }
 };
@@ -60,3 +64,8 @@ var scroll = function (songNumber) {
 var liteSwitch = function (channel) {
   window.location = channel + ".html";
 };
+
+if(window.location.hash) {
+  console.log(hash.substring(1,hash.length - 1) + " " + hash.substring(hash.length - 1,hash.length));
+  toggleLyrics(hash.substring(1,hash.length - 1), hash.substring(hash.length - 1,hash.length));
+}

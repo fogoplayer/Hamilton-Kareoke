@@ -1771,9 +1771,219 @@ var aWintersBall = {
 
 var helpless = {
   title:"Helpless",
-  lyrics:``,
+  lyrics:`
+    <strong>[ELIZA]</strong>
+    <br>Ohh, I do I do I do I
+    <br>Dooo! Hey!
+    <br>Ohh, I do I do I do I
+    <br>Dooo! Boy you got me
+    <br><br>
+    
+    <strong>[ELIZA AND WOMEN]</strong>
+    <br>Helpless!
+    <br>Look into your eyes, and the sky's the limit I'm helpless!
+    <br>Down for the count, and I'm drownin' in 'em
+    <br><br>
+    
+    <strong>[ELIZA]</strong>
+    <br>I have never been the type to try and grab the spotlight
+    <br>We were at a revel with some rebels on a hot night
+    <br>Laughin' at my sister as she's dazzling the room
+    <br>Then you walked in and my heart went "Boom!"
+    <br>Tryin' to catch your eye from the side of the ballroom
+    <br>Everybody's dancin' and the band's top volume
+    <br><br>
+    
+    <strong>[ELIZA AND WOMEN]</strong>
+    <br>Ride to the rhythm as we wine and dine
+    <br><br>
+    
+    <strong>[ELIZA]</strong>
+    <br>Grab my sister, and<br>Whisper, "Yo, this<br>One's mine."
+    <br><br>
+    
+    <strong>[WOMEN]</strong>
+    Ooooh!
+    
+    My sister made her way across the room to yooou
+    <br>And I got nervous, thinking "What's she gonna dooo?"
+    <br>She grabbed you by the arm, I'm thinkin' "I'm through"
+    <br>Then you look back at me and suddenly I'm
+    <br>Helpless!
+    <br><br>
+    
+    Look into your eyes
+    <br>And the sky's the limit
+    <br>I'm helpless!
+    <br>Down for the count
+    <br>And I'm drownin' in 'em
+    <br><br>
+    
+    <strong>[ALL WOMEN]</strong>
+    Helpless!
+    <br><br>
+    
+    <strong>[ELIZA]</strong>
+    <br>I'm so into you
+    <br><br>
+    
+    <strong>[ALL WOMEN]</strong>
+    <br>Look into your eyes
+    <br>And the sky's the limit I'm helpless!
+    <br><br>
+    
+    <strong>[ELIZA]</strong>
+    <br>I know I'm down for the count
+    <br>And I'm drownin' in 'em
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>Where are you taking me?
+    <br><br>
+    
+    <strong>[ANGELICA]</strong>
+    <br>I'm about to change your life
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>Then by all means, lead the way
+    <br><br>
+    
+    <strong>[ELIZA]</strong>
+    <br>Elizabeth Schuyler. It's a pleasure to meet you
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>Schuyler?
+    <br><br>
+    <strong>[ANGELICA]</strong>
+    <br>My sister
+    <br><br>
+    
+    <strong>[ELIZA]</strong>
+    <br>Thank you for all your service
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>If it takes fighting a war for us to meet, it will have been worth it
+    <br><br>
+    
+    <strong>[ANGELICA]</strong>
+    <br>I'll leave you to it
+    <br><br>
+    
+    <strong>[ELIZA AND WOMEN]</strong>
+    <br>One week later
+    <br><br>
+    
+    <strong>[ELIZA]</strong>
+    <br>I'm writin' a letter nightly
+    <br>Now my life gets better, every letter that you write me
+    <br>Laughin' at my sister, cuz she wants to form a harem
+    <br><br>
+    
+    <strong>[ANGELICA]</strong>
+    <br>I'm just sayin', if you really loved me, you would share him
+    <br><br>
+    
+    <strong>[ELIZA]</strong>
+    <br>Ha!
+    <br>Two weeks later
+    <br>In the living room stressin'
+    <br>My father's stone-faced
+    <br>While you're asking for his blessin'
+    <br>I'm dying inside, as
+    <br>You wine
+    <br>And dine
+    <br>And I'm tryin' not to cry
+    <br>'cause there's nothing that your mind can't dooo
+    <br>My father makes his way across the room to yooou
+    <br>I panic for a second, thinking, "we're through"
+    <br>But then he shakes your hand and says, "Be truuue"
+    <br>And you turn back to me, smiling, and I'm
+    <br><br>
+    
+    <strong>[ALL WOMEN]</strong>
+    <br>Helpless!
+    
+    <strong>[ELIZA]</strong>
+    <br>He's mine
+    <br>That boy is mine!
+    <br><br>
+    
+    <strong>[ALL WOMEN]</strong>
+    <br>Look into your eyes
+    <br>And the sky's the limit
+    <br>I'm helpless!
+    <br>Down for the count
+    <br>And I'm drownin' in'em
+    <br><br>
+    
+    <br>Helpless!
+    <br>Look into your eyes
+    <br>And the sky's the limit
+    <br>I'm helpless!
+    <br>Down for the count
+    <br>And I'm drownin' in'em
+    <br>I'm helpless!
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>Eliza, I don't have a dollar to my name
+    <br>An acre of land, a troop to command, a dollop of fame
+    <br>All I have's my honor, a tolerance for pain
+    <br>A couple of college credits and my top-notch brain
+    <br>Insane, your family brings out a different side of me
+    <br>Peggy confides in me, Angelica tried to take a bite of me
+    <br>No stress, my love for you is never in doubt
+    <br>We'll get a little place in Harlem and we'll figure it out
+    <br>I've been livin' without a family since I was a child
+    <br>My father left, my mother died, I grew up buckwild
+    <br>But I'll never forget my mother's face, that was real
+    <br>And long as I'm alive, Eliza, swear to God
+    <br>You'll never feel so...
+    <br><br>
+    
+    <strong>[WOMEN]</strong>
+    <br>Helpless!
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>I've never felt so-
+    <br><br>
+    
+    <strong>[WOMEN]</strong>
+    <br>Helpless!
+    <br>Down for the count and I'm drownin' in 'em
+    <br><br>
+    
+    <strong>[HAMILTON]</strong>
+    <br>My life is gon' be fine cuz Eliza's in it.
+    <br><br>
+    
+    <strong>[ELIZA]</strong>
+    <br>I look into your eyes, and the sky's the limit
+    <br>I'm
+    <br><br>
+    
+    <strong>[WOMEN]</strong>
+    <br>Helpless!
+    <br><br>
+    
+    Down for the count
+    <br>And I'm drownin' in 'em.
+    <br><br>
+    
+    <strong>[ALL WOMEN]</strong>
+    <br>In New York, you can be a new man...
+    <br>In New York, you can be a new man...
+    <br>In New York, you can be a new man...
+    <br><br>
+    
+    <strong>[ELIZA]
+    <br>Helpless
+  `,
   o: `<iframe src="https://www.youtube.com/embed/30N4rPZuUMc?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
-  c: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`,
   k: `<iframe src="https://www.youtube.com/embed/?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>`
 };
 
