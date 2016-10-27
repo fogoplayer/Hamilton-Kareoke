@@ -1,0 +1,91 @@
+@media (max-width:400px) {
+    .songCard {
+      width:calc(90vw - 2vw);
+      height:calc(90vw - 2vw);
+      background-color:white;
+    }
+    
+    .songTitle {
+      font-size:8.5vw;
+    }
+    
+    .songLink {
+      font-size:6vw;
+    }
+  }
+
+  @media (min-width:400px) and (max-width:800px) {
+    .songCard {
+      width:calc(90vw / 2 - 2vw);
+      height:calc(90vw / 2 - 2vw);
+    }
+    
+    .songTitle {
+      font-size:calc(8.5vw / 2);
+    }
+    
+    .songLink {
+      font-size:calc((6vw) / 2);
+    }
+  }
+
+  @media (min-width:800px) and (max-width:1200px) {
+    .songCard {
+      width:calc(90vw / 3 - 2vw);
+      height:calc(90vw / 3 - 2vw);
+    }
+    
+    .songTitle {
+      font-size:calc(8.5vw / 3);
+    }
+    
+    .songLink {
+      font-size:calc((6vw) / 3);
+    }
+  }
+
+  @media (min-width:1200px) and (max-width:1600px) {
+    .songCard {
+      width:calc(90vw / 4 - 2vw);
+      height:calc(90vw / 4 - 2vw);
+    }
+    
+    .songTitle {
+      font-size:calc(8.5vw / 4);
+    }
+    
+    .songLink {
+      font-size:calc((6vw) / 4);
+    }
+  }
+
+  @media (min-width:1600px) {
+    .songCard {
+      width:calc(90vw / 5 - 2vw);
+      height:calc(90vw / 5 - 2vw);
+    }
+    
+    .songTitle {
+      font-size:calc(8.5vw / 5);
+    }
+    
+    .songLink {
+      font-size:calc((6vw) / 5)
+    }
+  }
+
+  @media (min-width:1600px) and (max-width:2000px) {
+    .songCard {
+      width:calc(90vw / 5 - 2vw);
+      height:calc(90vw / 5 - 2vw);
+      background-color:white;
+    }
+    
+    .songTitle {
+      font-size:calc(8.5vw / 5);
+    }
+    
+    .songLink {
+      font-size:calc((6vw) / 5);
+    }
+  }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html id = "html">
+<head>
+  <title id = "documentTitle"></title>
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href= "images/hamilton.jpg">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="media.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <!--Reference JS files-->
+  <script src="hamilton.js"></script>
+  <script src="cleanEdits.js"></script>
+</head>
+<body>
+  <header id = header>
+    <div id = "navButton" class = "headerButton"></div>
+    <div id = "title">
+    </div>
+  </header>
+  
+  <div id = "content" class = "content"></div>
+
+  <div id = "overlay" onclick = "toggleNav()"></div>
+
+  <nav id = "nav" class = "closed"></nav>
+</body>
+<script src="main.js"></script>
+</html>
