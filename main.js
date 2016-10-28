@@ -27,13 +27,13 @@ var loadSongList = function(hashClear) {
   content.className = "content";
   content.innerHTML = "";
   nav.innerHTML = "";
-  for(i = 0; i < window[url].songs.length; i++){
+  for(var i = 0; i < window[url].songs.length; i++){
     content.innerHTML = content.innerHTML + 
       `<div class = "album">` + window[url].songs[i][0].title + `</div>`;
     nav.innerHTML = nav.innerHTML +
       `<button class = "albumNav" id = "` + "album" + (i + 1) + `" onclick = "toggleAlbum('` +  "album" + (i + 1)  + `Wrapper')">` + window[url].songs[i][0].title + `</button><div id = "` + "album" + (i + 1) + `Wrapper" class = "wrapper" style = "height:0px">`;
       
-    for(j = 1; j < window[url].songs[i].length; j++) {
+    for(var j = 1; j < window[url].songs[i].length; j++) {
       if (window[url].songs[i][j].lines ===  "2") {
         lineCount = " twoLine";
       }else{
@@ -44,9 +44,6 @@ var loadSongList = function(hashClear) {
       var buttons = window[url].songs[i][j].buttons;
       var buttonHTML;
       var reference = i + "." + j;
-      if ("'" in title) {
-        str.replace("'", "\'");
-      }
       if(buttons.length === 1){
         buttonHTML =
         `<button class = "songLink whole" onclick = "loadLyrics('` + reference + `', '0')">` + window[url].songs[i][j].buttons[0] + `</button>`;
@@ -104,8 +101,8 @@ var toggleNav = function(){
   }else{
     nav.className = "closed";
     overlay.style.display = "none";
-    stop = false;
-    for(i = 1; stop !== true; i++){
+    var stop = false;
+    for(var i = 1; stop !== true; i++){
       if(document.getElementById("album" + i.toString() + "Wrapper") === null){
         stop = true;
       }else if(document.getElementById("album" + i.toString() + "Wrapper").style.height === "auto"){
@@ -144,9 +141,9 @@ var cleanLyrics = function(album, song, type){
 };
 
 var changeSong = function(direction) {
-  for(i = 0; tempLocation.substring(i, i + 1) != "."; i++){
-    album = parseInt(tempLocation.substring(0, i + 1));
-    song = parseInt(tempLocation.substring(i + 2));
+  for(var i = 0; tempLocation.substring(i, i + 1) != "."; i++){
+    var album = parseInt(tempLocation.substring(0, i + 1));
+    var song = parseInt(tempLocation.substring(i + 2));
   }
   if (shuffle === false) {
     song += direction;
@@ -164,7 +161,7 @@ var changeSong = function(direction) {
       }
       song = 1;
     }
-    reference = album.toString() + "." + song.toString();
+    var reference = album.toString() + "." + song.toString();
   }else if (direction < 0 && songHistory.length > 1){
     reference = songHistory[songHistory.length - 2];
     songHistory = songHistory.slice(0,songHistory.length - 1);
@@ -176,7 +173,7 @@ var changeSong = function(direction) {
   }
   console.log(songHistory);
   if (hash.substring(hash.length - 1, hash.length) > window[url].songs[album][song].buttons.length - 1){
-    hashValue = "0";
+    var hashValue = "0";
   }else{
     hashValue = hash.substring(hash.length - 1, hash.length);
   }
@@ -199,7 +196,7 @@ var loadLyrics = function(reference, type) {
   //Separate reference into album and song
   var album;
   var song;
-  for(i = 0; reference.substring(i, i + 1) != "."; i++){
+  for(var i = 0; reference.substring(i, i + 1) != "."; i++){
     album = reference.substring(0, i + 1);
     song = reference.substring(i + 2);
   }
@@ -210,7 +207,7 @@ var loadLyrics = function(reference, type) {
   content.className = "lyrics";
   type = type.toLowerCase();
   if (shuffle === false){
-    shuffleColor = "0.3";
+    var shuffleColor = "0.3";
   }else{
     shuffleColor = "1";
   }
