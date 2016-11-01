@@ -127,7 +127,7 @@ var replace = function(str, word) {
 
 var cleanLyrics = function(album, song, type){
   var str = window[url].songs[album][song].lyrics[type];
-  console.log(url + " " + album + " " +  song+ " " + type);
+  console.log(url + " a" + album + " s" +  song+ " t" + type);
   //replace compound words
   str = str.replace("", "");
   str = str.replace("", "");
