@@ -176,6 +176,7 @@ var changeSong = function(direction) {
   }else{
     hashValue = hash.substring(hash.length - 1, hash.length);
   }
+  console.log(hashValue);
   loadLyrics(reference, hashValue);
 };
 
