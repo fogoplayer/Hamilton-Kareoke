@@ -17,6 +17,7 @@ var songHistory = [];
 var loadSongList = function(hashClear) {
   if (hashClear === true){
     document.location.hash = "";
+    hash = "";
   }
   var lineCount = "";
   document.getElementById("header").innerHTML = `<div id = "navButton" class = "headerButton" onclick = "toggleNav()"><i class="material-icons navButton">menu</i></div><div id = "title">` + window[url].title + `</div>`;
@@ -218,6 +219,7 @@ var loadLyrics = function(reference, type) {
   
   content.innerHTML = `<iframe src="https://www.youtube.com/embed/` + id + `?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>` + content.innerHTML;
   document.location.hash = reference + type.substring(0,1);
+  hash = reference + type.substring(0,1);
 };
 
 var clearHashLoadSong = function(){
