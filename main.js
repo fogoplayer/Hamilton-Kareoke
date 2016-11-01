@@ -201,6 +201,7 @@ var loadLyrics = function(reference, type) {
   }
   tempLocation = album.toString() + "." + song.toString();
   console.log(tempLocation);
+  console.log(song);
   cleanLyrics(album, song, type);
   //Load content
   content.className = "lyrics";
