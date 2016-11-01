@@ -6,8 +6,6 @@ var title = document.getElementById("title");
 var content = document.getElementById("content");
 var nav = document.getElementById("nav");
 var overlay = document.getElementById("overlay");
-var act1Wrapper = document.getElementById("act1Wrapper");
-var act2Wrapper = document.getElementById("act2Wrapper");
 var objectScript = document.getElementById("objectScript");
 var url = window.location.pathname.substring(9, window.location.pathname.length - 5);
 var hash = window.location.hash;
@@ -129,6 +127,7 @@ var replace = function(str, word) {
 
 var cleanLyrics = function(album, song, type){
   var str = window[url].songs[album][song].lyrics[type];
+  console.log(str);
   //replace compound words
   str = str.replace("", "");
   str = str.replace("", "");
